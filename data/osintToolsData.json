@@ -752,7 +752,7 @@
         "descripcion": "Herramineta para descargar imágenes y datos de Instagram",
         "url": "https://github.com/instaloader/instaloader",
         "categoria": "herramientas",
-        "input_types": ["usuario"],
+        "input_types": ["cuenta instagram"],
         "output_types": ["imágenes", "historias","datos personales"]
     }
 }
