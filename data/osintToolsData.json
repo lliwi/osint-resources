@@ -747,5 +747,12 @@
         "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
+    },
+    "Instaloader": {
+        "descripcion": "Herramineta para descargar imágenes y datos de Instagram",
+        "url": "https://github.com/instaloader/instaloader",
+        "categoria": "herramientas",
+        "input_types": ["usuario"],
+        "output_types": ["imágenes", "historias","datos personales"]
     }
 }
