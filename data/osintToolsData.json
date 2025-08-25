@@ -754,5 +754,12 @@
         "categoria": "herramientas",
         "input_types": ["cuenta instagram"],
         "output_types": ["imágenes", "historias","datos personales"]
+    },
+    "GoSearch": {
+        "descripcion": "Herramineta para buscar sericios a los que se ha suscrito un usuario",
+        "url": "https://github.com/ibnaleem/gosearch",
+        "categoria": "herramientas",
+        "input_types": ["usuario"],
+        "output_types": ["Redes sociales o servicios activos"]
     }
 }
