@@ -761,5 +761,12 @@
         "categoria": "herramientas",
         "input_types": ["usuario"],
         "output_types": ["Redes sociales o servicios activos"]
+    },
+    "phomber": {
+        "descripcion": "Información de telefonos, direcciones MAC y IP's",
+        "url": "https://github.com/s41r4j/phomber",
+        "categoria": "herramientas",
+        "input_types": ["telefono","IP","direccion MAC","dominio"],
+        "output_types": ["Redes sociales o servicios activos"]
     }
 }
