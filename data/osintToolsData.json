@@ -768,5 +768,12 @@
         "categoria": "herramientas",
         "input_types": ["telefono","IP","direccion MAC","dominio"],
         "output_types": ["Redes sociales o servicios activos"]
+    },
+    "instagram_monitor": {
+        "descripcion": "Monitoreo de cuentas de Instagram",
+        "url": "https://github.com/misiektoja/instagram_monitor",
+        "categoria": "herramientas",
+        "input_types": ["cuenta instagram"],
+        "output_types": ["información adicional"]
     }
 }
