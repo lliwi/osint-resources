@@ -775,5 +775,12 @@
         "categoria": "herramientas",
         "input_types": ["cuenta instagram"],
         "output_types": ["información adicional"]
+    },
+    "doxbin": {
+        "descripcion": "Plataforma para compartir información personal",
+        "url": "https://doxbin.net/",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
     }
 }
