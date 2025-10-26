@@ -737,7 +737,7 @@
     "Dirección General de Tráfico": {
         "descripcion": "Información sobre vehículos",
         "url": "https://sede.dgt.gob.es/es/vehiculos/informacion-de-vehiculos/informe-de-un-vehiculo/",        
-        "categoria": "data breaches",
+        "categoria": "vehículos",
         "input_types": ["matrícula"],
         "output_types": ["información adicional"] 
     },
@@ -789,5 +789,26 @@
         "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["n/a"]
+    },
+    "LeackCheck": {
+        "descripcion": "Repositorio de brechas de datos",
+        "url": "https://leakcheck.io",        
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "LeakPeek": {
+        "descripcion": "Repositorio de brechas de datos",
+        "url": "https://leakpeek.com/",        
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "Leak-Lookup": {
+        "descripcion": "Repositorio de brechas de datos",
+        "url": "https://leak-lookup.com/",        
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
     }
 }
