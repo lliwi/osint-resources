@@ -782,5 +782,12 @@
         "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["n/a"]
+    },
+    "RADAR": {
+        "descripcion": "Portal de ransomware y brechas de datos",
+        "url": "http://3bnusfu2lgk5at43ceu7cdok5yv4gfbono2jv57ho74ucjvc7czirfid.onion/news",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
     }
 }
