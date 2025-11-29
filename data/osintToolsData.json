@@ -817,5 +817,12 @@
         "categoria": "data breaches",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
+    },
+    "CloudRip": {
+        "descripcion": "Herramienta para obtener subdominios de un dominio y sus direcciones IP reales",
+        "url": "https://github.com/staxsum/CloudRip.git",        
+        "categoria": "herramientas",
+        "input_types": ["dominio"],
+        "output_types": ["subdominios","direcciones IP"] 
     }
 }
