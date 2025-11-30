@@ -824,5 +824,12 @@
         "categoria": "herramientas",
         "input_types": ["dominio"],
         "output_types": ["subdominios","direcciones IP"] 
+    },
+    "Robin": {
+        "descripcion": "Herramienta para realizar busquedas en la dark web",
+        "url": "https://github.com/apurvsinghgautam/robin",        
+        "categoria": "buscadores",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
     }
 }
