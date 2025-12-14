@@ -831,5 +831,12 @@
         "categoria": "buscadores",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
+    },
+    "Triage": {
+        "descripcion": "Herramienta para analizar malware de forma dinamica",
+        "url": "https://tria.ge",        
+        "categoria": "herramientas",
+        "input_types": ["archivo"],
+        "output_types": ["n/a"] 
     }
 }
