@@ -845,5 +845,26 @@
         "categoria": "herramientas",
         "input_types": ["dominio"],
         "output_types": ["n/a"] 
+    },
+    "Instant Data Scraper": {
+        "descripcion": "Scraper de datos para navegadores",
+        "url": "https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US&utm_source=ext_sidebar",        
+        "categoria": "extensiones",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "Fake news debunker by InVID & WeVerify": {
+        "descripcion": "Extensión para la verificación de noticias falsas",
+        "url": "https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en",        
+        "categoria": "extensiones",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
+    },
+    "TinEye Reverse Image Search": {
+        "descripcion": "Extensión para la búsqueda inversa de imágenes",
+        "url": "https://chromewebstore.google.com/detail/tineye-reverse-image-sear/haebnnbpedcbhciplfhjjkbafijpncjl",        
+        "categoria": "extensiones",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"] 
     }
 }
