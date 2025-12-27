@@ -134,7 +134,7 @@
     },
     "WebCheck": {
         "descripcion": "Historico de páginas web",
-        "url": "https://web.archive.org/",
+        "url": "https://web-check.xyz/",
         "categoria": "web",
         "input_types": ["url"],
         "output_types": ["certificados SSL","records DNS","servidores DNS", "whois", "firewall", "headers"]
@@ -866,5 +866,68 @@
         "categoria": "extensiones",
         "input_types": ["n/a"],
         "output_types": ["n/a"] 
+    },
+    "Blockchair": {
+        "descripcion": "Servicio web para la exploración de blockchain",
+        "url": "https://blockchair.com/",        
+        "categoria": "herramientas",
+        "input_types": ["wallet","bloque"],
+        "output_types": ["transacciónes","balances","información adicional"] 
+    },
+    "Blockchain.com": {
+        "descripcion": "Servicio web para la exploración de blockchain",
+        "url": "https://www.blockchain.com/",        
+        "categoria": "herramientas",
+        "input_types": ["wallet","bloque"],
+        "output_types": ["transacciónes","balances","información adicional"] 
+    },
+    "social-analyzer": {
+        "descripcion": "Herramienta para la búsqueda de usuarios en redes sociales",
+        "url": "https://github.com/qeeqbox/social-analyzer",        
+        "categoria": "herramientas",
+        "input_types": ["usuario"],
+        "output_types": ["información adicional"] 
+    },
+    "TrueCallerz": {
+        "descripcion": "Bot de Telegram para buscar información de teléfonos",
+        "url": "@True_Callerzbot",        
+        "categoria": "bot telegram",
+        "input_types": ["telefono"],
+        "output_types": ["información adicional"] 
+    },
+    "wigle": {
+        "descripcion": "Herramienta para búsqueda de redes wifi y puntos de acceso",
+        "url": "https://wigle.net/",        
+        "categoria": "herramientas",
+        "input_types": ["BSSID","SSID"],
+        "output_types": ["información adicional"] 
+    },
+    "Mr.Holmes": {
+        "descripcion": "Herramienta para búsqueda de información personal",
+        "url": "https://github.com/Lucksi/Mr.Holmes",        
+        "categoria": "herramientas",
+        "input_types": ["usuario","telefono","email"],
+        "output_types": ["información adicional"] 
+    },
+    "spiderfoot": {
+        "descripcion": "Herramienta para búsqueda de información personal",
+        "url": "https://github.com/smicallef/spiderfoot",        
+        "categoria": "herramientas",
+        "input_types": ["IP","dominio","usuario","telefono","email","nombre"],
+        "output_types": ["información adicional"] 
+    },
+    "phoneinfoga": {
+        "descripcion": "Herramienta para búsqueda de información de teléfonos",
+        "url": "https://github.com/sundowndev/phoneinfoga",        
+        "categoria": "herramientas",
+        "input_types": ["telefono"],
+        "output_types": ["información adicional"] 
+    },
+    "lopseg": {
+        "descripcion": "Conjunto de herramientas OSINT",
+        "url": "https://lopseg.com.br/osint",        
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
     }
 }
