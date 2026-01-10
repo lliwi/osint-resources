@@ -766,7 +766,7 @@
         "descripcion": "Información de telefonos, direcciones MAC y IP's",
         "url": "https://github.com/s41r4j/phomber",
         "categoria": "herramientas",
-        "input_types": ["telefono","IP","direccion MAC","dominio"],
+        "input_types": ["teléfono","IP","direccion MAC","dominio"],
         "output_types": ["Redes sociales o servicios activos"]
     },
     "instagram_monitor": {
@@ -892,7 +892,7 @@
         "descripcion": "Bot de Telegram para buscar información de teléfonos",
         "url": "@True_Callerzbot",        
         "categoria": "bot telegram",
-        "input_types": ["telefono"],
+        "input_types": ["teléfono"],
         "output_types": ["información adicional"] 
     },
     "wigle": {
@@ -906,21 +906,21 @@
         "descripcion": "Herramienta para búsqueda de información personal",
         "url": "https://github.com/Lucksi/Mr.Holmes",        
         "categoria": "herramientas",
-        "input_types": ["usuario","telefono","email"],
+        "input_types": ["usuario","teléfono","email"],
         "output_types": ["información adicional"] 
     },
     "spiderfoot": {
         "descripcion": "Herramienta para búsqueda de información personal",
         "url": "https://github.com/smicallef/spiderfoot",        
         "categoria": "herramientas",
-        "input_types": ["IP","dominio","usuario","telefono","email","nombre"],
+        "input_types": ["IP","dominio","usuario","teléfono","email","nombre"],
         "output_types": ["información adicional"] 
     },
     "phoneinfoga": {
         "descripcion": "Herramienta para búsqueda de información de teléfonos",
         "url": "https://github.com/sundowndev/phoneinfoga",        
         "categoria": "herramientas",
-        "input_types": ["telefono"],
+        "input_types": ["teléfono"],
         "output_types": ["información adicional"] 
     },
     "lopseg": {
