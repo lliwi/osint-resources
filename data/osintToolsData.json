@@ -46,14 +46,14 @@
         "url": "https://gmail-osint.activetk.jp",
         "categoria": "social data",
         "input_types": ["email"],
-        "output_types": ["imagen perfil", "fecha edicíon perfil", "Gaia ID", "tipo usuario", "reseñas"]
+        "output_types": ["imágen perfil", "fecha edicíon perfil", "Gaia ID", "tipo usuario", "reseñas"]
     },
     "Imginn": {
         "descripcion": "Información de cuentas de instagram",
         "url": "https://imginn.com/",
         "categoria": "social data",
         "input_types": ["cuenta instagram"],
-        "output_types": ["imagen perfil","posts", "followers", "following", "stories", "tagged"]
+        "output_types": ["imágen perfil","posts", "followers", "following", "stories", "tagged"]
     },
     "Twitter Leaked Checker": {
         "descripcion": "Información compromiso de cuentas de twitter",
@@ -87,7 +87,7 @@
         "descripcion": "Búsqueda inversa de imágenes",
         "url": "https://pimeyes.com/es",
         "categoria": "social data",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["imágenes publicadas en internet"]
     },
     "Intelligence X": {
@@ -122,7 +122,7 @@
         "descripcion": "Búsqueda inversa de imágenes",
         "url": "https://tineye.com/",
         "categoria": "social data",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["imágenes publicadas en internet"]
     },
     "Internet archive": {
@@ -171,7 +171,7 @@
         "descripcion": "Online EXIF data viewer",
         "url": "https://jimpl.com/",
         "categoria": "herramientas",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["matadatos"]
     },
     "Google dorks": {
@@ -196,7 +196,7 @@
         "output_types": ["redes sociales activas"]
     },
     "Spyrod-v2": {
-        "descripcion": "Información sobre direcciones IP",
+        "descripcion": "Información sobre direcciónes IP",
         "url": "https://github.com/Euronymou5/Spyrod-v2",
         "categoria": "herramientas",
         "input_types": ["IP"],
@@ -221,7 +221,7 @@
         "url": "https://github.com/soxoj/maigret",
         "categoria": "herramientas",
         "input_types": ["usuario"],
-        "output_types": ["redes sociales activas", "uid", "imagen perfil", "información personal"]
+        "output_types": ["redes sociales activas", "uid", "imágen perfil", "información personal"]
     },
     "truecaller": {
         "descripcion": "Búsqueda de datos de contacto",
@@ -332,7 +332,7 @@
         "descripcion": "Herramineta para análisis de imágenes",
         "url": "https://29a.ch/photo-forensics",
         "categoria": "herramientas",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["metadatos", "información adicional"] 
     },
     "FOCA": {
@@ -346,7 +346,7 @@
         "descripcion": "Herramineta para análisis de imágenes",
         "url": "https://fotoforensics.com",
         "categoria": "herramientas",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["metadatos", "información adicional"] 
     },
     "Yandex": {
@@ -357,10 +357,10 @@
         "output_types": ["resaultados de búsqueda"] 
     },
     "Search by Image": {
-        "descripcion": "Buscador por imagen",
+        "descripcion": "Buscador por imágen",
         "url": "https://addons.mozilla.org/en-US/firefox/addon/search_by_image/",
         "categoria": "extensiones",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["resaultados de búsqueda"] 
     },
     "Ahmia": {
@@ -469,14 +469,14 @@
         "output_types": ["información adicional"] 
     },
     "urlscan": {
-        "descripcion": "Información de direcciones URL",
+        "descripcion": "Información de direcciónes URL",
         "url": "https://urlscan.io",
         "categoria": "infraestructura",
         "input_types": ["url"],
         "output_types": ["información adicional"] 
     },
     "browserling": {
-        "descripcion": "Sandbox para prueba de direcciones URL",
+        "descripcion": "Sandbox para prueba de direcciónes URL",
         "url": "https://www.browserling.com",        
         "categoria": "herramientas",
         "input_types": ["url"],
@@ -563,14 +563,14 @@
         "descripcion": "Herramineta para análisis de imágenes",
         "url": "https://exiftool.org/​​",        
         "categoria": "herramientas",
-        "input_types": ["imagen"],
+        "input_types": ["imágen"],
         "output_types": ["metadatos"] 
     },
     "Wolfram Language": {
         "descripcion": "Herramineta para la identificación de objetos",
         "url": "https://www.wolfram.com​​",        
         "categoria": "herramientas",
-        "input_types": ["imagen","video"],
+        "input_types": ["imágen","video"],
         "output_types": ["categoria"] 
     },
     "Argus": {
@@ -647,7 +647,7 @@
         "descripcion": "Repositorio de herramientas para trabajar con imágenes",
         "url": "https://imgops.com",        
         "categoria": "herramientas",
-        "input_types": ["imagen","url"],
+        "input_types": ["imágen","url"],
         "output_types": ["información adicional"] 
     },
     "Osgint": {
@@ -665,14 +665,14 @@
         "output_types": ["hosts","issuer","notBefore","notAfter","serialNumber","SHA1 Fingerprint","SHA256 Fingerprint"] 
     },
     "Hurricane electric": {
-        "descripcion": "Información sobre direcciones IP",
+        "descripcion": "Información sobre direcciónes IP",
         "url": "https://bgp.he.net/",        
         "categoria": "infraestructura",
         "input_types": ["IP"],
         "output_types": ["información adicional"] 
     },
     "Team Cymru IP to ASN Lookup v1.0": {
-        "descripcion": "Información sobre direcciones IP",
+        "descripcion": "Información sobre direcciónes IP",
         "url": "https://asn.cymru.com/",        
         "categoria": "infraestructura",
         "input_types": ["IP"],
@@ -711,7 +711,7 @@
         "url": "https://savegram.app/en",        
         "categoria": "social data",
         "input_types": ["cuenta instagram"],
-        "output_types": ["imagenes","videos","Reels", "Stories"] 
+        "output_types": ["imágenes","videos","Reels", "Stories"] 
     },
     "idcrawl": {
         "descripcion": "Busqueda de datos personales",
@@ -763,10 +763,10 @@
         "output_types": ["Redes sociales o servicios activos"]
     },
     "phomber": {
-        "descripcion": "Información de telefonos, direcciones MAC y IP's",
+        "descripcion": "Información de telefonos, direcciónes MAC y IP's",
         "url": "https://github.com/s41r4j/phomber",
         "categoria": "herramientas",
-        "input_types": ["teléfono","IP","direccion MAC","dominio"],
+        "input_types": ["teléfono","IP","dirección MAC","dominio"],
         "output_types": ["Redes sociales o servicios activos"]
     },
     "instagram_monitor": {
@@ -819,11 +819,11 @@
         "output_types": ["n/a"] 
     },
     "CloudRip": {
-        "descripcion": "Herramienta para obtener subdominios de un dominio y sus direcciones IP reales",
+        "descripcion": "Herramienta para obtener subdominios de un dominio y sus direcciónes IP reales",
         "url": "https://github.com/staxsum/CloudRip.git",        
         "categoria": "herramientas",
         "input_types": ["dominio"],
-        "output_types": ["subdominios","direcciones IP"] 
+        "output_types": ["subdominios","direcciónes IP"] 
     },
     "Robin": {
         "descripcion": "Herramienta para realizar busquedas en la dark web",
@@ -928,6 +928,13 @@
         "url": "https://lopseg.com.br/osint",        
         "categoria": "herramientas",
         "input_types": ["n/a"],
+        "output_types": ["información adicional"] 
+    },
+    "Jimpl": {
+        "descripcion": "Herramienta para obtener los metadatos de una imagen",
+        "url": "https://jimpl.com/",        
+        "categoria": "herramientas",
+        "input_types": ["imágen"],
         "output_types": ["información adicional"] 
     }
 }
