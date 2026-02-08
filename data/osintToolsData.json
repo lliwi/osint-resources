@@ -936,5 +936,19 @@
         "categoria": "herramientas",
         "input_types": ["imágen"],
         "output_types": ["información adicional"] 
+    },
+    "OSINT4ALL": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://start.me/p/L1rEYQ/osint4all",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "LeakIX": {
+        "descripcion": "Motor de búsqueda para identificación de filtraciones de datos y servicios mal configurados en Internet",
+        "url": "https://leakix.net/",
+        "categoria": "buscadores",
+        "input_types": ["puerto","IP","ASN","protocolo"],
+        "output_types": ["IP","ASN","puertos","response","certificados","riesgos"]
     }
 }
