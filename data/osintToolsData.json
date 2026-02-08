@@ -950,5 +950,12 @@
         "categoria": "buscadores",
         "input_types": ["puerto","IP","ASN","protocolo"],
         "output_types": ["IP","ASN","puertos","response","certificados","riesgos"]
+    },
+    "People Data Labs": {
+        "descripcion": "",
+        "url": "https://peopledatalabs.com",
+        "categoria": "",
+        "input_types": ["email", "LinkedIn URL", "nombre", "nombre empresa"],
+        "output_types": ["redes sociales activas", "datos empresa", "datos personales"]
     }
 }
