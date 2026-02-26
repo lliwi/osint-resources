@@ -78,7 +78,7 @@
     },
     "WhatsMyName Web": {
         "descripcion": "Búsqueda de usuarios en plataformas",
-        "url": "https://instantusername.com/",
+        "url": "https://www.whatsmyname.app/",
         "categoria": "social data",
         "input_types": ["usuario"],
         "output_types": ["cuentas activas"]
@@ -190,7 +190,7 @@
     },
     "blackbird": {
         "descripcion": "Búsqueda de usuarios en plataformas",
-        "url": "https://github.com/laramies/theHarvester",
+        "url": "https://github.com/p1ngul1n0/blackbird",
         "categoria": "herramientas",
         "input_types": ["usuario", "email"],
         "output_types": ["redes sociales activas"]
@@ -323,7 +323,7 @@
     },
     "nitter": {
         "descripcion": "Herramineta para busqueda de tweets y usuarios de X",
-        "url": "https://nitter.privacydev.net",
+        "url": "https://nitter.net",
         "categoria": "social data",
         "input_types": ["usuario twitter"],
         "output_types": ["tweets", "usuarios"] 
@@ -952,17 +952,24 @@
         "output_types": ["IP","ASN","puertos","response","certificados","riesgos"]
     },
     "People Data Labs": {
-        "descripcion": "",
+        "descripcion": "People Data Labs (PDL) es una plataforma de infraestructura de datos B2B enfocada en proporcionar información masiva y detallada sobre personas y empresas a nivel global.",
         "url": "https://peopledatalabs.com",
-        "categoria": "",
+        "categoria": "herramientas",
         "input_types": ["email", "LinkedIn URL", "nombre", "nombre empresa"],
         "output_types": ["redes sociales activas", "datos empresa", "datos personales"]
     },
     "CSIDB": {
-        "descripcion": "",
+        "descripcion": "CSIDB.net (Cyber Security Incident Database) es una plataforma de inteligencia de amenazas de código abierto",
         "url": "https://www.csidb.net/",
-    "categoria": "data breaches",
+        "categoria": "data breaches",
         "input_types": ["incidentes", "nombre empresa", "actores amenaza"],
         "output_types": ["información adicional","fuentes","data breaches"]
+    },
+    "hunter": {
+        "descripcion": "Su objetivo principal es ayudar a empresas y profesionales a conectar con las personas adecuadas de cualquier organización de forma rápida y verificada.",
+        "url": "https://hunter.io/",
+        "categoria": "herramientas",
+        "input_types": ["dominio", "email"],
+        "output_types": ["información adicional"]
     }
 }
