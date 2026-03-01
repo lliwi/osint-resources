@@ -971,5 +971,12 @@
         "categoria": "herramientas",
         "input_types": ["dominio", "email"],
         "output_types": ["información adicional"]
+    },
+    "osintsearchengine": {
+        "descripcion": "Buscador profesional de inteligencia.",
+        "url": "https://app.osintsearchengine.com/",
+        "categoria": "herramientas",
+        "input_types": ["IP","usuario","nombre","dominio", "teléfono","email","nombre empresa"],
+        "output_types": ["información adicional"]
     }
 }
