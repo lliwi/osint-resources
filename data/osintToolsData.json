@@ -978,5 +978,40 @@
         "categoria": "herramientas",
         "input_types": ["IP","usuario","nombre","dominio", "teléfono","email","nombre empresa"],
         "output_types": ["información adicional"]
+    },
+    "okcaller": {
+        "descripcion": "Servicio para obtencio de información de teléfonos",
+        "url": "https://okcaller.com/",
+        "categoria": "herramientas",
+        "input_types": ["teléfono"],
+        "output_types": ["información adicional"]
+    },
+    "claritycheck": {
+        "descripcion": "Servicio para obtencio de información de teléfonos",
+        "url": "https://claritycheck.com/",
+        "categoria": "herramientas",
+        "input_types": ["teléfono"],
+        "output_types": ["información adicional"]
+    },
+    "osintgram": {
+        "descripcion": "Información de cuentas de instagram",
+        "url": "https://osintgram.com/",
+        "categoria": "social data",
+        "input_types": ["cuenta instagram"],
+        "output_types": ["imágen perfil","posts", "followers", "following", "stories", "tagged"]
+    },
+    "dehashed": {
+        "descripcion": "Busqueda de filtraciones masivas.",
+        "url": "https://dehashed.com/",
+        "categoria": "data breaches",
+        "input_types": ["usuario","email"],
+        "output_types": ["filtraciones conocidas","contraseñas","información adicional"]
+    },
+    "osint-suite-tools": {
+        "descripcion": "Conjunto de herramientas en Python para investigaciones OSINT y SOCMINT.",
+        "url": "https://github.com/Quantika14/osint-suite-tools",
+        "categoria": "herramientas",
+        "input_types": ["usuario","email", "nombre", "dominio", "IP"],
+        "output_types": ["información adicional"]
     }
 }
