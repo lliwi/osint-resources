@@ -1013,5 +1013,54 @@
         "categoria": "herramientas",
         "input_types": ["usuario","email", "nombre", "dominio", "IP"],
         "output_types": ["información adicional"]
+    },
+    "osint-for countries MAP": {
+        "descripcion": "Mapa con enlaces a herramientas OSINT clasificadas por país",
+        "url": "https://map.wddadk.com/",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "The Pika's OSINT ToolBox": {
+        "descripcion": "Repositorio de herramientas OSINT.",
+        "url": "https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "v3nari-bookmarks": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://start.me/p/1kxyw9/v3nari-bookmarks",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "Legendary_OSINT": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://github.com/K2SOsint/Legendary_OSINT?tab=readme-ov-file",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "OSINT Tools and Resources Handbook": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://www.osinthandbook.com",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "waybien": {
+        "descripcion": "Buscador en canales de redes sociales",
+        "url": "https://waybien.com",
+        "categoria": "buscadores",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"]
+    },
+    "Global Energy Monitor": {
+        "descripcion": "Mapa con información sobre energía global",
+        "url": "https://globalenergymonitor.org/",
+        "categoria": "mapas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"]
     }
 }
