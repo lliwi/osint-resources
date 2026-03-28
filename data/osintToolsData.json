@@ -1062,5 +1062,12 @@
         "categoria": "mapas",
         "input_types": ["n/a"],
         "output_types": ["información adicional"]
+    },
+    "BreachForums": {
+        "descripcion": "Foro para discutir filtraciones de datos",
+        "url": "https://breachforums.sb/",
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": [""]
     }
 }
