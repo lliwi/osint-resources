@@ -1069,5 +1069,12 @@
         "categoria": "data breaches",
         "input_types": ["n/a"],
         "output_types": [""]
+    },
+    "Arkham": {
+        "descripcion": "Inteligencia y análisis de criptoactivos",
+        "url": "https://intel.arkm.com",
+        "categoria": "criptoactivos",
+        "input_types": ["tocken","wallet","direccion"],
+        "output_types": ["información adicional"]
     }
 }
