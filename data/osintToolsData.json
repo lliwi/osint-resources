@@ -930,13 +930,6 @@
         "input_types": ["n/a"],
         "output_types": ["información adicional"] 
     },
-    "Jimpl": {
-        "descripcion": "Herramienta para obtener los metadatos de una imagen",
-        "url": "https://jimpl.com/",        
-        "categoria": "herramientas",
-        "input_types": ["imágen"],
-        "output_types": ["información adicional"] 
-    },
     "OSINT4ALL": {
         "descripcion": "Repositorio de herramientas OSINT",
         "url": "https://start.me/p/L1rEYQ/osint4all",
@@ -1076,5 +1069,33 @@
         "categoria": "criptoactivos",
         "input_types": ["tocken","wallet","direccion"],
         "output_types": ["información adicional"]
+    },
+    "SOCRadar": {
+        "descripcion": "Plataforma de detección de amenazas y ciberinteligencia",
+        "url": "https://socradar.io",
+        "categoria": "herramientas",
+        "input_types": ["dominio","email"],
+        "output_types": ["información adicional"]
+    },
+    "OSINT Tools Library": {
+        "descripcion": "Directorio de herramientas OSINT para diversas categorías y propósitos",
+        "url": "https://tools.osintnewsletter.com/",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["herramientas"]
+    },
+    "TOR Node Archive": {
+        "descripcion": "Directorio de nodos TOR.",
+        "url": "https://tor-archive.github.io/",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["IP"]
+    },
+    "crowd threat": {
+        "descripcion": "Mapa de amenazas globales.",
+        "url": "https://app.crowdthreat.world",
+        "categoria": "mapas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
     }
 }
