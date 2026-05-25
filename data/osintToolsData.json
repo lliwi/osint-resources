@@ -1097,5 +1097,33 @@
         "categoria": "mapas",
         "input_types": ["n/a"],
         "output_types": ["n/a"]
+    },
+    "bravedown": {
+        "descripcion": "Descarga de vídeos de redes sociales.",
+        "url": "https://bravedown.com/",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "awesome-hacker-search-engines": {
+        "descripcion": "Repositorio de herramientas OSINT",
+        "url": "https://github.com/edoardottt/awesome-hacker-search-engines",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "breachdirectory": {
+        "descripcion": "Portal de credenciales filtradas",
+        "url": "https://breachdirectory.org/",
+        "categoria": "data breaches",
+        "input_types": ["usuario","email"],
+        "output_types": ["contraseñas"]
+    },
+    "leaker": {
+        "descripcion": "Herramianta para obtener credenciales filtradas",
+        "url": "https://github.com/vflame6/leaker",
+        "categoria": "herramientas",
+        "input_types": ["usuario","email","dominio","teléfono"],
+        "output_types": ["contraseñas"]
     }
 }
