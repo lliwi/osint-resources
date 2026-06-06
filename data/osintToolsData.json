@@ -1125,5 +1125,12 @@
         "categoria": "herramientas",
         "input_types": ["usuario","email","dominio","teléfono"],
         "output_types": ["contraseñas"]
+    },
+    "behindtheemail": {
+        "descripcion": "Herramienta onlaine para búsqueda de información de correos electrónicos",
+        "url": "https://behindtheemail.com",
+        "categoria": "herramientas",
+        "input_types": ["email"],
+        "output_types": ["información adicional"]
     }
 }
