@@ -1132,5 +1132,12 @@
         "categoria": "herramientas",
         "input_types": ["email"],
         "output_types": ["información adicional"]
+    },
+    "cala": {
+        "descripcion": "Platafoma para obtención de datos verificados",
+        "url": "https://www.cala.ai",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"]
     }
 }
