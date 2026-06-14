@@ -1139,5 +1139,12 @@
         "categoria": "herramientas",
         "input_types": ["n/a"],
         "output_types": ["información adicional"]
+    },
+    "whocalld": {
+        "descripcion": "Informacion de números de teléfono",
+        "url": "https://whocalld.com/",
+        "categoria": "herramientas",
+        "input_types": ["teléfono"],
+        "output_types": ["información adicional"]
     }
 }
