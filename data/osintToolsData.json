@@ -1146,5 +1146,12 @@
         "categoria": "herramientas",
         "input_types": ["teléfono"],
         "output_types": ["información adicional"]
+    },
+    "opengridworks": {
+        "descripcion": "Informacion de números de teléfono",
+        "url": "https://opengridworks.com/",
+        "categoria": "mapas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"]
     }
 }
