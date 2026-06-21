@@ -1160,5 +1160,12 @@
         "categoria": "herramientas",
         "input_types": ["n/a"],
         "output_types": ["información adicional"]
+    },
+    "user-scanner": {
+        "descripcion": "Herramienta para búsqueda de información personal",
+        "url": "https://github.com/kaifcodec/user-scanner",
+        "categoria": "herramientas",
+        "input_types": ["email","usuario"],
+        "output_types": ["cuentas activas"]
     }
 }
