@@ -1148,9 +1148,16 @@
         "output_types": ["información adicional"]
     },
     "opengridworks": {
-        "descripcion": "Informacion de números de teléfono",
+        "descripcion": "Informacion de infrastructuras",
         "url": "https://opengridworks.com/",
         "categoria": "mapas",
+        "input_types": ["n/a"],
+        "output_types": ["información adicional"]
+    },
+    "analystresearchtools": {
+        "descripcion": "Conjunto de herramientas OSINT",
+        "url": "https://analystresearchtools.com/",
+        "categoria": "herramientas",
         "input_types": ["n/a"],
         "output_types": ["información adicional"]
     }
