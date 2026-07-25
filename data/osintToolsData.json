@@ -1,1171 +1,1185 @@
 {
     "Registradores de españa": {
-        "descripcion": "​El Registro Mercantil es aquel en el que se inscriben los hechos y actos relativos a los empresarios individuales y a las sociedades mercantiles, con el fin de dar publicidad a los mismos de forma que puedan ser conocidos por las personas que contraten con ellos.",
+        "descripcion": "Sede electrónica del Colegio de Registradores de España: permite consultar y solicitar publicidad del Registro Mercantil, el Registro de la Propiedad y el Registro de Bienes Muebles.",
         "url": "https://sede.registradores.org",
         "categoria": "empresas",
-        "input_types": ["nombre empresa", "NIF", "matrícula", "número bastidor"],
-        "output_types": ["NIF", "denominación socíal", "estado de la sociedad", "certificádos", "informes"]
+        "input_types": ["nombre empresa", "NIF", "matrícula", "número bastidor", "ubicación"],
+        "output_types": ["denominación social", "NIF", "estado de la sociedad", "domicilio social", "objeto social", "administradores y cargos", "titularidad y cargas registrales", "nota simple", "certificados", "informes"]
     },
     "axesor": {
-        "descripcion": "La información más completa y actualizada sobre cualquier empresa, autónomo y ejecutivo de su interés.",
+        "descripcion": "Base de datos mercantil española con información identificativa, económica, financiera y de riesgo de empresas, autónomos y directivos.",
         "url": "https://www.axesor.es/",
         "categoria": "empresas",
-        "input_types": ["nombre", "marca", "NIF", "teléfono"],
-        "output_types": ["nombre", "dirección postal", "teléfono","CIF","forma jurídiica", "fecha constitución", "Objeto social", "CNAE", "SIC", "informes"]
+        "input_types": ["nombre empresa", "NIF", "marca", "teléfono", "nombre directivo"],
+        "output_types": ["denominación social", "CIF", "dirección postal", "teléfono", "forma jurídica", "fecha constitución", "objeto social", "CNAE", "SIC", "cargos directivos", "cuentas anuales", "riesgo comercial", "informes"]
     },
     "Informa D&B": {
-        "descripcion": "Información sobre empresas",
+        "descripcion": "Filial portuguesa de Informa D&B (Dun & Bradstreet) con información comercial, financiera y de riesgo de empresas de Portugal.",
         "url": "https://www.informadb.pt/es/",
         "categoria": "empresas",
-        "input_types": ["nombre empresa", "NIF"],
-        "output_types": ["nombre", "denominación / marca", "número contribuinte", "número DUNS", "datos de contacto", "antiguedad","riesgo comercial", "informes"]
+        "input_types": ["nombre empresa", "NIF", "número DUNS"],
+        "output_types": ["denominación social", "marca", "número de contribuyente (NIPC)", "número DUNS", "datos de contacto", "actividad / CAE", "antigüedad", "cuentas anuales", "riesgo comercial", "informes"]
     },
     "DatosCIF": {
-        "descripcion": "Información de empresas y directivos de empresas españolas ",
+        "descripcion": "Directorio de empresas y directivos españoles elaborado a partir de los actos publicados en el BORME.",
         "url": "https://www.datoscif.es",
         "categoria": "empresas",
-        "input_types": ["nombre empresa", "nombre directívo"],
-        "output_types": ["municipio / provincia", "razón social", "CIF", "actividad", "teléfono", "fecha constitución","nombres anteriores", "consejo admintración", "organigrama", "vinculaciones", "cargos", "modificaciones estatutarias", "nombramientos", "revocaciones"]
+        "input_types": ["nombre empresa", "nombre directivo", "NIF", "ubicación"],
+        "output_types": ["razón social", "CIF", "domicilio social", "ubicación", "actividad / CNAE", "teléfono", "fecha constitución", "denominaciones anteriores", "consejo de administración", "organigrama", "vinculaciones", "cargos", "nombramientos", "revocaciones", "modificaciones estatutarias"]
     },
     "infoNIF": {
-        "descripcion": "Información de empresas y directivos de empresas españolas ",
+        "descripcion": "Buscador de empresas españolas de Economía 3 con datos mercantiles, financieros y de directivos procedentes del Registro Mercantil y del BORME.",
         "url": "https://infonif.economia3.com/",
         "categoria": "empresas",
-        "input_types": ["nombre empresa", "nombre directívo", "NIF"],
-        "output_types": ["NIF", "antiguedad", "datos contacto","denominación anteriore", "registro mercantil",  "actos publicados BORME", "análisi financiero", "sector", "número de empleados", "cargos directivos", "últimas cuentas presentadas", "auditor", "información crediticia", "informes"]
+        "input_types": ["nombre empresa", "nombre directivo", "NIF"],
+        "output_types": ["NIF", "denominaciones anteriores", "antigüedad", "datos de contacto", "registro mercantil", "actos publicados BORME", "sector / CNAE", "análisis financiero", "número de empleados", "cargos directivos", "últimas cuentas presentadas", "auditor", "información crediticia", "informes"]
     },
     "Have I been powned": {
-        "descripcion": "Información de brechas de datos",
+        "descripcion": "Servicio de Troy Hunt que comprueba si una dirección de correo, un teléfono o una contraseña aparecen en brechas de datos y filtraciones públicas conocidas.",
         "url": "https://haveibeenpwned.com",
         "categoria": "data breaches",
-        "input_types": ["email"],
-        "output_types": ["data breaches"]
+        "input_types": ["email", "teléfono", "contraseña", "dominio"],
+        "output_types": ["data breaches", "fecha de la brecha", "datos comprometidos", "pastes", "alertas y notificaciones"]
     },
     "GHunt": {
-        "descripcion": "Información de cuentas de gmail",
+        "descripcion": "Extrae la información pública asociada a una cuenta de Google/Gmail a partir de su dirección de correo.",
         "url": "https://gmail-osint.activetk.jp",
         "categoria": "social data",
-        "input_types": ["email"],
-        "output_types": ["imágen perfil", "fecha edicíon perfil", "Gaia ID", "tipo usuario", "reseñas"]
+        "input_types": ["email", "Gaia ID"],
+        "output_types": ["Gaia ID", "nombre", "imagen perfil", "fecha edición perfil", "tipo de cuenta", "servicios de Google", "reseñas de Google Maps", "calendarios públicos"]
     },
     "Imginn": {
-        "descripcion": "Información de cuentas de instagram",
+        "descripcion": "Visor y descargador anónimo del contenido público de Instagram (perfiles, publicaciones e historias) sin necesidad de cuenta. Servicio inestable por los límites que impone Instagram.",
         "url": "https://imginn.com/",
         "categoria": "social data",
-        "input_types": ["cuenta instagram"],
-        "output_types": ["imágen perfil","posts", "followers", "following", "stories", "tagged"]
+        "input_types": ["cuenta instagram", "hashtag"],
+        "output_types": ["imagen perfil", "biografía", "posts", "stories", "tagged", "número de followers", "número de following", "descarga de imágenes y vídeos"]
     },
     "Twitter Leaked Checker": {
-        "descripcion": "Información compromiso de cuentas de twitter",
+        "descripcion": "Comprueba si una cuenta de Twitter/X figura en la filtración de más de 200 millones de perfiles publicada en 2022.",
         "url": "https://www.activetk.jp/tools/twitter-leaked200",
         "categoria": "data breaches",
-        "input_types": ["cuenta twitter"],
-        "output_types": ["data breaches"]
+        "input_types": ["cuenta twitter", "email"],
+        "output_types": ["data breaches", "email asociado", "nombre", "fecha de creación de la cuenta"]
     },
     "Webmii": {
-        "descripcion": "Información sobre personas en internet",
+        "descripcion": "Metabuscador de personas que agrega resultados públicos de la web y calcula un índice de visibilidad.",
         "url": "https://webmii.com",
         "categoria": "personal data",
         "input_types": ["nombre", "apellido"],
-        "output_types": ["información pública"]
+        "output_types": ["perfiles públicos", "enlaces web", "menciones en prensa", "imágenes", "índice de visibilidad"]
     },
     "Instant Username Search": {
-        "descripcion": "Búsqueda de usuarios en plataformas",
+        "descripcion": "Comprueba en tiempo real la disponibilidad o la existencia de un nombre de usuario en más de un centenar de plataformas y redes sociales.",
         "url": "https://instantusername.com/",
         "categoria": "social data",
         "input_types": ["usuario"],
-        "output_types": ["cuentas activas"]
+        "output_types": ["cuentas activas", "disponibilidad del usuario", "enlaces a perfiles"]
     },
     "WhatsMyName Web": {
-        "descripcion": "Búsqueda de usuarios en plataformas",
+        "descripcion": "Enumeración de nombres de usuario en más de 600 sitios web mediante el proyecto abierto WhatsMyName.",
         "url": "https://www.whatsmyname.app/",
         "categoria": "social data",
         "input_types": ["usuario"],
-        "output_types": ["cuentas activas"]
+        "output_types": ["cuentas activas", "enlaces a perfiles", "categoría del sitio", "exportación CSV/JSON"]
     },
     "Pim Eyes": {
-        "descripcion": "Búsqueda inversa de imágenes",
+        "descripcion": "Motor de búsqueda facial inversa que localiza fotografías de una persona publicadas en sitios web indexados.",
         "url": "https://pimeyes.com/es",
         "categoria": "social data",
-        "input_types": ["imágen"],
-        "output_types": ["imágenes publicadas en internet"]
+        "input_types": ["imagen"],
+        "output_types": ["imágenes coincidentes", "URLs de coincidencias", "fuentes web", "porcentaje de similitud"]
     },
     "Intelligence X": {
-        "descripcion": "Open Source Intelligence & Forensic Tools",
+        "descripcion": "Motor de búsqueda y archivo histórico que indexa la web abierta, la dark web, documentos filtrados, brechas de datos y pastes.",
         "url": "https://intelx.io/tools",
         "categoria": "data breaches",
-        "input_types": ["dominio","url", "email", "IP"],
-        "output_types": ["data breaches"]
+        "input_types": ["dominio", "url", "email", "IP", "teléfono", "wallet"],
+        "output_types": ["data breaches", "documentos filtrados", "pastes", "histórico de páginas web", "registros whois", "dominios .onion"]
     },
     "SunsBase": {
-        "descripcion": "Información de brechas de datos",
+        "descripcion": "Motor de búsqueda de brechas de datos (Snusbase) que permite consultar miles de filtraciones y logs de infostealers.",
         "url": "https://www.snusbase.com/",
         "categoria": "data breaches",
-        "input_types": ["email","usuario", "IP", "password","nombre","hash", "dominio", "teléfono"],
-        "output_types": ["data breaches"]
+        "input_types": ["email", "usuario", "IP", "contraseña", "nombre", "hash", "dominio", "teléfono"],
+        "output_types": ["data breaches", "contraseñas", "hashes", "nombre", "dirección", "teléfono", "IP", "logs de infostealer"]
     },
     "Shodan": {
-        "descripcion": "Buscador de dispositivos conectados a internet",
+        "descripcion": "Motor de búsqueda de dispositivos y servicios expuestos en Internet, con banners de servicio, tecnologías detectadas y vulnerabilidades asociadas.",
         "url": "https://www.shodan.io/",
         "categoria": "infraestructura",
-        "input_types": ["IP","dominio", "hostname", "hash"],
-        "output_types": ["hostmanes", "dominios","país","ciudad","organización","ISP","ASN", "puertos abiertos", "vulnerabilidades"]
+        "input_types": ["IP", "rango IP", "dominio", "hostname", "puerto", "organización", "consulta"],
+        "output_types": ["hostnames", "dominios", "país", "ciudad", "organización", "ISP", "ASN", "puertos abiertos", "banners de servicio", "tecnologías", "certificados SSL", "vulnerabilidades (CVE)", "capturas de pantalla"]
     },
     "Inteltechniques": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Colección de herramientas de búsqueda OSINT de Michael Bazzell organizadas por tipo de dato de partida (correo, usuario, teléfono, dominio, imágenes).",
         "url": "https://inteltechniques.com/tools/",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "TinEye": {
-        "descripcion": "Búsqueda inversa de imágenes",
+        "descripcion": "Motor de búsqueda inversa de imágenes que localiza dónde aparece una imagen en Internet y detecta sus versiones modificadas.",
         "url": "https://tineye.com/",
         "categoria": "social data",
-        "input_types": ["imágen"],
-        "output_types": ["imágenes publicadas en internet"]
+        "input_types": ["imagen", "url"],
+        "output_types": ["imágenes coincidentes", "URLs de coincidencias", "fuentes web", "primera aparición", "versiones modificadas"]
     },
     "Internet archive": {
-        "descripcion": "Historico de páginas web",
+        "descripcion": "Archivo histórico de la web (Wayback Machine) que permite consultar versiones antiguas de páginas y contenido ya eliminado.",
         "url": "https://web.archive.org/",
         "categoria": "web",
-        "input_types": ["url"],
-        "output_types": ["historial pagina web"]
+        "input_types": ["url", "dominio"],
+        "output_types": ["capturas históricas", "fechas de captura", "contenido eliminado", "cambios en el sitio"]
     },
     "WebCheck": {
-        "descripcion": "Historico de páginas web",
+        "descripcion": "Análisis técnico completo de un sitio web: cabeceras, DNS, certificados, tecnologías empleadas y configuración de seguridad.",
         "url": "https://web-check.xyz/",
         "categoria": "web",
-        "input_types": ["url"],
-        "output_types": ["certificados SSL","records DNS","servidores DNS", "whois", "firewall", "headers"]
+        "input_types": ["url", "dominio"],
+        "output_types": ["certificados SSL", "registros DNS", "servidores DNS", "whois", "cabeceras HTTP", "tecnologías web", "cookies", "firewall", "IP", "ubicación del servidor"]
     },
     " Messageheader": {
-        "descripcion": "Análisis de cabeceras de correos electrónicos",
+        "descripcion": "Herramienta de Google que analiza las cabeceras de un correo electrónico y muestra la ruta de entrega y los retardos de cada salto.",
         "url": "https://toolbox.googleapps.com/apps/messageheader/analyzeheader",
         "categoria": "herramientas",
         "input_types": ["email header"],
-        "output_types": ["análisi cabecera email"]
+        "output_types": ["servidores de correo", "IP de origen", "ruta de entrega", "retardos", "SPF", "DKIM", "DMARC", "fecha de envío"]
     },
     "Social Searcher": {
-        "descripcion": "Información en redes sociales ",
+        "descripcion": "Buscador y monitor de menciones en redes sociales y web con análisis de sentimiento.",
         "url": "https://www.social-searcher.com/",
         "categoria": "social data",
-        "input_types": ["menciones", "usuario", "trends"],
-        "output_types": ["menciones", "usuario", "sentiment","publicaciones", "estadísticas"]
+        "input_types": ["consulta", "usuario", "hashtag"],
+        "output_types": ["menciones", "publicaciones", "autores", "sentiment", "estadísticas", "alertas por email", "exportación CSV"]
     },
     "Simple Email Reputation": {
-        "descripcion": "Reputación corrreo electrónico",
+        "descripcion": "Consulta la reputación y el perfil de riesgo de una dirección de correo electrónico a partir de fuentes abiertas.",
         "url": "https://emailrep.io/",
         "categoria": "herramientas",
         "input_types": ["email"],
-        "output_types": ["reputación email"]
+        "output_types": ["reputación email", "score de riesgo", "dominio sospechoso", "cuenta desechable", "perfiles en redes sociales", "data breaches", "primera y última vez visto"]
     },
     "OSINT Framework": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Árbol interactivo que clasifica cientos de recursos y herramientas OSINT según el dato de partida de la investigación.",
         "url": "https://osintframework.com/",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "Jimpl": {
-        "descripcion": "Online EXIF data viewer",
+        "descripcion": "Visor online de los metadatos EXIF de una fotografía.",
         "url": "https://jimpl.com/",
         "categoria": "herramientas",
-        "input_types": ["imágen"],
-        "output_types": ["matadatos"]
+        "input_types": ["imagen"],
+        "output_types": ["metadatos EXIF", "modelo de cámara", "fecha de captura", "coordenadas GPS", "software de edición", "miniatura original"]
     },
     "Google dorks": {
-        "descripcion": "Google Hacking Database",
+        "descripcion": "Base de datos de Google Hacking (GHDB) de Exploit-DB con consultas avanzadas para localizar información expuesta.",
         "url": "https://www.exploit-db.com/google-hacking-database",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["docks"]
+        "input_types": ["consulta"],
+        "output_types": ["dorks", "categoría del dork", "fecha de publicación", "autor"]
     },
     "theHarvester": {
-        "descripcion": "Información de dominios",
+        "descripcion": "Herramienta de recolección pasiva de correos, subdominios, hosts y empleados de una organización a partir de motores de búsqueda y fuentes públicas.",
         "url": "https://github.com/laramies/theHarvester",
         "categoria": "herramientas",
-        "input_types": ["dominio"],
-        "output_types": ["IP", "email", "subdominios","hosts"]
+        "input_types": ["dominio", "organización"],
+        "output_types": ["email", "subdominios", "hosts", "IP", "nombres de empleados", "URLs", "ASN"]
     },
     "blackbird": {
-        "descripcion": "Búsqueda de usuarios en plataformas",
+        "descripcion": "Herramienta OSINT que busca las cuentas asociadas a un nombre de usuario o a un correo en cientos de sitios y genera informes.",
         "url": "https://github.com/p1ngul1n0/blackbird",
         "categoria": "herramientas",
         "input_types": ["usuario", "email"],
-        "output_types": ["redes sociales activas"]
+        "output_types": ["cuentas activas", "enlaces a perfiles", "metadatos del perfil", "informes PDF/CSV"]
     },
     "Spyrod-v2": {
-        "descripcion": "Información sobre direcciónes IP",
+        "descripcion": "Script en Python que consulta la geolocalización y los datos de red de una dirección IP a través de la API de ip-api.com.",
         "url": "https://github.com/Euronymou5/Spyrod-v2",
         "categoria": "herramientas",
         "input_types": ["IP"],
-        "output_types": ["ISP","organización","ciudad","país","region / estado","latitud / longitud","CP","AS","DNS inverso"]
+        "output_types": ["ISP", "organización", "ciudad", "región / estado", "país", "código postal", "latitud / longitud", "ASN", "DNS inverso"]
     },
     "userrecon": {
-        "descripcion": "Búsqueda de usuarios en plataformas",
+        "descripcion": "Script que comprueba la existencia de un nombre de usuario en más de 75 redes sociales.",
         "url": "https://github.com/wishihab/userrecon",
         "categoria": "herramientas",
-        "input_types": ["usuario", "email"],
-        "output_types": ["redes sociales activas"]
+        "input_types": ["usuario"],
+        "output_types": ["cuentas activas", "enlaces a perfiles"]
     },
     "sherlock": {
-        "descripcion": "Búsqueda de usuarios en plataformas",
+        "descripcion": "Herramienta de referencia para localizar las cuentas asociadas a un nombre de usuario en más de 400 redes sociales.",
         "url": "https://github.com/sherlock-project/sherlock",
         "categoria": "herramientas",
-        "input_types": ["usuario", "email"],
-        "output_types": ["redes sociales activas"]
+        "input_types": ["usuario"],
+        "output_types": ["cuentas activas", "enlaces a perfiles", "exportación CSV/JSON"]
     },
     "migret": {
-        "descripcion": "Búsqueda de usuarios en plataformas",
+        "descripcion": "Búsqueda de un nombre de usuario en más de 3.000 sitios (Maigret) que además extrae y correlaciona los datos de los perfiles encontrados.",
         "url": "https://github.com/soxoj/maigret",
         "categoria": "herramientas",
-        "input_types": ["usuario"],
-        "output_types": ["redes sociales activas", "uid", "imágen perfil", "información personal"]
+        "input_types": ["usuario", "email", "teléfono"],
+        "output_types": ["cuentas activas", "enlaces a perfiles", "uid", "imagen perfil", "nombre", "biografía", "email", "información personal", "informes HTML/PDF"]
     },
     "truecaller": {
-        "descripcion": "Búsqueda de datos de contacto",
+        "descripcion": "Directorio colaborativo de identificación de llamadas que asocia números de teléfono con nombres y señala los marcados como spam.",
         "url": "https://www.truecaller.com",
         "categoria": "herramientas",
-        "input_types": ["teléfono"],
-        "output_types": ["operador", "país", "propietario"]
+        "input_types": ["teléfono", "nombre"],
+        "output_types": ["propietario", "operador", "país", "ubicación", "tipo de línea", "etiquetas de spam", "comentarios de usuarios"]
     },
     "lampyre": {
-        "descripcion": "Búsqueda de información personal",
+        "descripcion": "Plataforma de análisis de datos y OSINT que agrega múltiples fuentes y representa las relaciones encontradas en grafos y mapas.",
         "url": "https://lampyre.io",
         "categoria": "herramientas",
-        "input_types": ["email","teléfono","usuario","IP","dominio","imágen","sanción"],
-        "output_types": ["redes sociales activas", "data breaches","reputación email","ubicación"]
+        "input_types": ["email", "teléfono", "usuario", "IP", "dominio", "nombre", "imagen", "wallet"],
+        "output_types": ["cuentas activas", "data breaches", "reputación email", "ubicación", "registros whois", "grafo de relaciones", "informes"]
     },
     "Export comments": {
-        "descripcion": "Exporta comentarios de redes sociales",
+        "descripcion": "Exporta a hoja de cálculo los comentarios y las reacciones de las publicaciones de redes sociales.",
         "url": "https://exportcomments.com",
         "categoria": "herramientas",
         "input_types": ["url"],
-        "output_types": ["comentarios", "followers", "following"]
+        "output_types": ["comentarios", "autores", "fechas", "reacciones", "exportación Excel/CSV"]
     },
     "xhunt": {
-        "descripcion": "Exporta comentarios de redes sociales",
+        "descripcion": "Plataforma que agrega publicaciones de redes sociales por ubicación geográfica para seguir eventos en tiempo real.",
         "url": "https://www.huntintel.io",
         "categoria": "herramientas",
         "input_types": ["ubicación"],
-        "output_types": ["publicaciones facebook", "publicaciones instagram", "publicaciones twitter", "publicaciones youtube"]
+        "output_types": ["publicaciones geolocalizadas", "publicaciones instagram", "publicaciones facebook", "publicaciones twitter", "publicaciones youtube", "publicaciones VK", "publicaciones Snapchat", "publicaciones Flickr"]
     },
     "OSINT combine": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Conjunto de herramientas gratuitas de OSINT Combine para búsqueda en redes sociales, análisis de imágenes y geolocalización.",
         "url": "https://www.osintcombine.com/tools",
         "categoria": "repositorio",
         "input_types": ["n/a"],
         "output_types": ["herramientas"]
     },
     "Anonimous Instagram": {
-        "descripcion": "Visualiza información de cuentas de instagram de forma anónima",
+        "descripcion": "Visor anónimo de perfiles e historias públicas de Instagram sin necesidad de iniciar sesión.",
         "url": "https://storistalker.com",
         "categoria": "herramientas",
-        "input_types": ["usuario"],
-        "output_types": ["publicaciones","followers", "following", "stories"]
+        "input_types": ["cuenta instagram"],
+        "output_types": ["imagen perfil", "posts", "stories", "highlights", "número de followers", "número de following"]
     },
     "picuki": {
-        "descripcion": "Descarga contenido de ticktok",
+        "descripcion": "Visor y descargador de contenido público de redes sociales; originalmente centrado en Instagram y actualmente orientado a TikTok.",
         "url": "https://www.picuki.com/",
         "categoria": "herramientas",
-        "input_types": ["usuario","url"],
-        "output_types": ["posts","stories"]
+        "input_types": ["usuario", "url", "hashtag"],
+        "output_types": ["posts", "videos", "stories", "descarga de contenido"]
     },
     "statista": {
-        "descripcion": "Datos e indicadores de 170 sectores de más de 150 países",
+        "descripcion": "Portal de estadísticas y estudios de mercado con datos e indicadores de más de 170 sectores en 150 países.",
         "url": "https://es.statista.com",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["estadisticas"]
+        "input_types": ["consulta", "país"],
+        "output_types": ["estadísticas", "gráficos", "informes de mercado", "previsiones", "fuentes", "descarga XLS/PPT"]
     },
     "cybernews": {
-        "descripcion": "Cuentas comprometidas en brechas de datos",
+        "descripcion": "Comprobador de filtraciones de Cybernews que indica si un correo, un teléfono o una contraseña aparecen en brechas de datos conocidas.",
         "url": "https://cybernews.com/personal-data-leak-check",
         "categoria": "herramientas",
-        "input_types": ["email","teléfono"],
-        "output_types": ["data breaches"]
+        "input_types": ["email", "teléfono", "contraseña"],
+        "output_types": ["data breaches", "datos comprometidos", "fecha de la brecha"]
     },
     "vedbex": {
-        "descripcion": "Repositorio de herramientas de red",
+        "descripcion": "Colección de utilidades web de red y OSINT: whois, DNS, geolocalización de IP, subdominios, hashes y resolución de cuentas.",
         "url": "https://www.vedbex.com/home",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "input_types": ["dominio", "IP", "email", "teléfono", "usuario", "hash"],
+        "output_types": ["registros DNS", "whois", "geolocalización IP", "subdominios", "traceroute", "hashes", "cuentas Skype"]
     },
     "osint.sh": {
-        "descripcion": "Repositorio de herramientas de red",
+        "descripcion": "Conjunto de herramientas online gratuitas para la investigación de dominios, direcciones IP, correos y redes sociales.",
         "url": "https://osint.sh",
         "categoria": "repositorio",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "input_types": ["dominio", "IP", "email", "usuario", "nombre empresa"],
+        "output_types": ["whois inverso", "registros DNS", "subdominios", "certificados SSL", "hosting compartido", "cuentas en redes sociales", "metadatos"]
     },
     "Epieos": {
-        "descripcion": "Herramineta para busqueda de información de telefonos y emails",
+        "descripcion": "Servicio que revela las cuentas y los servicios registrados con un correo electrónico o un número de teléfono.",
         "url": "https://epieos.com/",
         "categoria": "herramientas",
-        "input_types": ["email","teléfono"],
-        "output_types": ["información personal"]
+        "input_types": ["email", "teléfono"],
+        "output_types": ["cuentas activas", "nombre", "imagen perfil", "Gaia ID", "reseñas de Google Maps", "calendarios públicos", "data breaches"]
     },
     "chatwatch": {
-        "descripcion": "Herramineta para busqueda monitorizar actividad de whatsapp",
+        "descripcion": "Servicio que monitoriza y registra la actividad de conexión de contactos de WhatsApp y genera estadísticas de uso.",
         "url": "https://chatwatch.net",
         "categoria": "herramientas",
         "input_types": ["teléfono"],
-        "output_types": ["actividad whatsapp"]
+        "output_types": ["historial de conexiones", "horarios de actividad", "tiempo de uso", "patrones de sueño", "probabilidad de conversación entre contactos", "notificaciones"]
     },
     "WhatsApp OSINT Tool": {
-        "descripcion": "Herramineta para busqueda monitorizar actividad de whatsapp",
+        "descripcion": "Script que monitoriza el estado en línea y los cambios de perfil de un contacto de WhatsApp.",
         "url": "https://github.com/jasperan/whatsapp-osintt",
         "categoria": "herramientas",
-        "input_types": ["usuario whatsapp"],
-        "output_types": ["actividad"] 
+        "input_types": ["teléfono"],
+        "output_types": ["estado en línea", "historial de conexiones", "imagen perfil", "estado / about", "gráficas de actividad"]
     },
     "nitter": {
-        "descripcion": "Herramineta para busqueda de tweets y usuarios de X",
+        "descripcion": "Front-end alternativo de Twitter/X que permite consultar perfiles, publicaciones y búsquedas sin cuenta ni JavaScript. La disponibilidad de las instancias es irregular.",
         "url": "https://nitter.net",
         "categoria": "social data",
-        "input_types": ["usuario twitter"],
-        "output_types": ["tweets", "usuarios"] 
+        "input_types": ["usuario twitter", "consulta", "hashtag"],
+        "output_types": ["tweets", "respuestas", "imágenes y vídeos", "datos del perfil", "feed RSS"]
     },
     "Forensically": {
-        "descripcion": "Herramineta para análisis de imágenes",
+        "descripcion": "Conjunto de herramientas web para el análisis forense de imágenes: detección de manipulaciones, clonado y análisis de ruido.",
         "url": "https://29a.ch/photo-forensics",
         "categoria": "herramientas",
-        "input_types": ["imágen"],
-        "output_types": ["metadatos", "información adicional"] 
+        "input_types": ["imagen"],
+        "output_types": ["análisis de nivel de error (ELA)", "detección de clonado", "análisis de ruido", "metadatos", "mapa de gradiente", "lupa de detalle"]
     },
     "FOCA": {
-        "descripcion": "Herramineta para obtener metadatos de documentos",
+        "descripcion": "Herramienta que descubre y extrae los metadatos de los documentos publicados en un dominio para inferir su infraestructura interna.",
         "url": "https://github.com/ElevenPaths/FOCA",
         "categoria": "herramientas",
-        "input_types": ["dominio","documento"],
-        "output_types": ["metadatos", "información adicional"] 
+        "input_types": ["dominio", "documento"],
+        "output_types": ["metadatos", "usuarios", "rutas de red", "impresoras", "software", "servidores", "email"]
     },
     "FotoForensiocs": {
-        "descripcion": "Herramineta para análisis de imágenes",
+        "descripcion": "Servicio online de análisis forense de imágenes basado en ELA para detectar manipulaciones.",
         "url": "https://fotoforensics.com",
         "categoria": "herramientas",
-        "input_types": ["imágen"],
-        "output_types": ["metadatos", "información adicional"] 
+        "input_types": ["imagen", "url"],
+        "output_types": ["análisis de nivel de error (ELA)", "metadatos EXIF", "estimación de calidad JPEG", "miniatura oculta", "geolocalización"]
     },
     "Yandex": {
-        "descripcion": "Buscador alternativo a Google",
+        "descripcion": "Motor de búsqueda ruso, especialmente eficaz en la búsqueda inversa de imágenes y el reconocimiento facial.",
         "url": "https://yandex.com/",
         "categoria": "buscadores",
-        "input_types": ["n/a"],
-        "output_types": ["resaultados de búsqueda"] 
+        "input_types": ["consulta", "imagen"],
+        "output_types": ["resultados de búsqueda", "imágenes similares", "URLs de coincidencias", "traducción"]
     },
     "Search by Image": {
-        "descripcion": "Buscador por imágen",
+        "descripcion": "Extensión de navegador que lanza la búsqueda inversa de una imagen en múltiples motores a la vez.",
         "url": "https://addons.mozilla.org/en-US/firefox/addon/search_by_image/",
         "categoria": "extensiones",
-        "input_types": ["imágen"],
-        "output_types": ["resaultados de búsqueda"] 
+        "input_types": ["imagen", "url"],
+        "output_types": ["resultados de búsqueda", "imágenes similares", "URLs de coincidencias"]
     },
     "Ahmia": {
-        "descripcion": "Buscador de la deep web",
+        "descripcion": "Motor de búsqueda de servicios ocultos de Tor accesible desde la web abierta.",
         "url": "https://ahmia.fi/",
         "categoria": "buscadores",
-        "input_types": ["n/a"],
-        "output_types": ["resaultados de búsqueda"] 
+        "input_types": ["consulta"],
+        "output_types": ["resultados de búsqueda", "dominios .onion", "descripción del servicio"]
     },
     "Torch": {
-        "descripcion": "Buscador de la deep web",
+        "descripcion": "Buscador veterano de servicios ocultos de la red Tor, accesible únicamente a través de Tor.",
         "url": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion",
         "categoria": "buscadores",
-        "input_types": ["n/a"],
-        "output_types": ["resaultados de búsqueda"] 
+        "input_types": ["consulta"],
+        "output_types": ["resultados de búsqueda", "dominios .onion"]
     },
     "Nameck_k": {
-        "descripcion": "Buscador de la deep web",
+        "descripcion": "Comprueba la disponibilidad de un nombre de usuario en cientos de redes sociales y de los dominios equivalentes.",
         "url": "https://namechk.com/",
         "categoria": "social data",
-        "input_types": ["usuario"],
-        "output_types": ["redes sociales activas"] 
+        "input_types": ["usuario", "dominio"],
+        "output_types": ["cuentas activas", "disponibilidad del usuario", "disponibilidad de dominios"]
     },
     "cansys": {
-        "descripcion": "Buscador de dispositivos conectados a internet",
+        "descripcion": "Motor de búsqueda de activos expuestos en Internet (Censys) con inventario de hosts, servicios y certificados X.509.",
         "url": "https://search.censys.io/",
         "categoria": "infraestructura",
-        "input_types": ["IP", "dominio", "hostname"],
-        "output_types": ["hosts", "IP","puertos abiertos", "subdominios","hosts","certificados SSL"] 
+        "input_types": ["IP", "rango IP", "dominio", "hostname", "certificado", "ASN", "consulta"],
+        "output_types": ["hosts", "IP", "puertos abiertos", "servicios", "banners de servicio", "certificados SSL", "subdominios", "ASN", "ubicación", "software detectado"]
     },
     "ZoomEy": {
-        "descripcion": "Buscador de dispositivos conectados a internet",
+        "descripcion": "Motor de búsqueda del ciberespacio que indexa dispositivos, servicios y aplicaciones web expuestos en Internet.",
         "url": "https://www.zoomeye.ai/",
         "categoria": "infraestructura",
-        "input_types": ["IP", "dominio", "hostname"],
-        "output_types": ["hosts", "IP","puertos abiertos", "subdominios","hosts","certificados SSL"] 
+        "input_types": ["IP", "rango IP", "dominio", "hostname", "consulta"],
+        "output_types": ["hosts", "IP", "puertos abiertos", "servicios", "banners de servicio", "tecnologías web", "certificados SSL", "vulnerabilidades", "ubicación"]
     },
     "Viewdns": {
-        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "descripcion": "Conjunto de utilidades online de DNS y red: whois inverso, DNS inverso, hosting compartido, propagación DNS y geolocalización de IPs.",
         "url": "https://viewdns.info/",
         "categoria": "infraestructura",
-        "input_types": ["IP", "dominio", "url", "dirección MAC"],
-        "output_types": ["información adicional"] 
+        "input_types": ["dominio", "IP", "url", "dirección MAC", "email"],
+        "output_types": ["registros DNS", "whois", "whois inverso", "DNS inverso", "dominios en la misma IP", "histórico de IP", "geolocalización IP", "puertos abiertos", "fabricante MAC"]
     },
     "Complete DNS": {
-        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "descripcion": "Base de datos histórica de servidores DNS y de registros de dominios con más de veinte años de histórico.",
         "url": "https://completedns.com",
         "categoria": "infraestructura",
-        "input_types": ["dominio"],
-        "output_types": ["información adicional"] 
+        "input_types": ["dominio", "servidor DNS"],
+        "output_types": ["histórico de servidores DNS", "dominios asociados a un nameserver", "registros DNS", "fechas de cambio"]
     },
     "whoisology": {
-        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "descripcion": "Base de datos de registros whois con búsqueda inversa e histórico de propietarios de dominios.",
         "url": "https://whoisology.com",
         "categoria": "infraestructura",
-        "input_types": ["dominio","email"],
-        "output_types": ["información adicional"] 
+        "input_types": ["dominio", "email", "nombre", "organización", "teléfono"],
+        "output_types": ["registros whois", "histórico whois", "dominios del mismo registrante", "datos del titular", "registrador", "fechas de registro y expiración"]
     },
     "IPVOID": {
-        "descripcion": "Herramienta onlaine para búsqueda de información de dominios",
+        "descripcion": "Colección de herramientas de análisis de direcciones IP, dominios y URLs con comprobación en listas negras.",
         "url": "https://www.ipvoid.com/",
         "categoria": "infraestructura",
-        "input_types": ["dominio","IP", "url"],
-        "output_types": ["información adicional"] 
+        "input_types": ["IP", "dominio", "url"],
+        "output_types": ["listas negras", "geolocalización IP", "registros DNS", "whois", "DNS inverso", "puertos abiertos", "reputación"]
     },
     "URLVOID": {
-        "descripcion": "Verificacion de reputación de paginas web",
+        "descripcion": "Comprueba la reputación de un sitio web consultando varios motores de listas negras y servicios de seguridad.",
         "url": "https://www.urlvoid.com",
         "categoria": "infraestructura",
-        "input_types": ["url"],
-        "output_types": ["información adicional"] 
+        "input_types": ["url", "dominio"],
+        "output_types": ["reputación", "listas negras", "antigüedad del dominio", "IP", "ubicación del servidor", "registros whois"]
     },
     "Virus total": {
-        "descripcion": "Detección de malware y análisis de archivos",
+        "descripcion": "Analiza archivos, URLs, dominios e IPs con decenas de motores antivirus y servicios de reputación.",
         "url": "https://www.virustotal.com",
         "categoria": "herramientas",
-        "input_types": ["url","archivo"],
-        "output_types": ["información adicional"] 
+        "input_types": ["archivo", "hash", "url", "dominio", "IP"],
+        "output_types": ["detecciones antivirus", "hashes", "reputación", "relaciones entre indicadores", "comportamiento en sandbox", "registros DNS", "certificados SSL", "comentarios de la comunidad"]
     },
     "Hybrid analysis": {
-        "descripcion": "Detección de malware y análisis de archivos",
+        "descripcion": "Sandbox pública de CrowdStrike para el análisis estático y dinámico de archivos y URLs sospechosos.",
         "url": "https://www.hybrid-analysis.com/",
         "categoria": "herramientas",
-        "input_types": ["url","archivo"],
-        "output_types": ["información adicional"] 
+        "input_types": ["archivo", "hash", "url"],
+        "output_types": ["informe de sandbox", "indicadores de compromiso (IOC)", "conexiones de red", "procesos", "técnicas MITRE ATT&CK", "capturas de pantalla", "puntuación de amenaza"]
     },
     "RSS.app": {
-        "descripcion": "Monitorización de redes sociales",
+        "descripcion": "Genera fuentes RSS a partir de páginas web y perfiles de redes sociales para poder monitorizarlos.",
         "url": "https://rss.app/",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["url", "usuario", "hashtag"],
+        "output_types": ["feed RSS", "publicaciones", "alertas", "widgets"]
     },
     "SSL Shopper": {
-        "descripcion": "Información de certificados SSL",
+        "descripcion": "Comprobador online del certificado SSL de un servidor y de su cadena de confianza.",
         "url": "https://www.sslshopper.com/ssl-checker.html",
         "categoria": "infraestructura",
-        "input_types": ["dominio"],
-        "output_types": ["información adicional"] 
+        "input_types": ["dominio", "hostname"],
+        "output_types": ["certificados SSL", "emisor", "fechas de validez", "cadena de certificación", "nombres alternativos (SAN)", "errores de configuración"]
     },
     "SSL server test": {
-        "descripcion": "Información de certificados SSL",
+        "descripcion": "Análisis en profundidad de Qualys SSL Labs sobre la configuración TLS de un servidor web.",
         "url": "https://www.ssllabs.com/ssltest/",
         "categoria": "infraestructura",
-        "input_types": ["dominio"],
-        "output_types": ["información adicional"] 
+        "input_types": ["dominio", "hostname"],
+        "output_types": ["calificación TLS", "certificados SSL", "protocolos soportados", "suites de cifrado", "vulnerabilidades TLS", "cadena de certificación", "IP del servidor"]
     },
     "urlscan": {
-        "descripcion": "Información de direcciónes URL",
+        "descripcion": "Sandbox web que navega una URL y registra todo su comportamiento, recursos cargados y conexiones de red.",
         "url": "https://urlscan.io",
         "categoria": "infraestructura",
-        "input_types": ["url"],
-        "output_types": ["información adicional"] 
+        "input_types": ["url", "dominio", "IP", "hash"],
+        "output_types": ["capturas de pantalla", "peticiones HTTP", "dominios e IPs contactadas", "tecnologías web", "certificados SSL", "redirecciones", "veredicto de malicia", "DOM"]
     },
     "browserling": {
-        "descripcion": "Sandbox para prueba de direcciónes URL",
-        "url": "https://www.browserling.com",        
+        "descripcion": "Navegador remoto en la nube que permite abrir URLs sospechosas de forma aislada.",
+        "url": "https://www.browserling.com",
         "categoria": "herramientas",
         "input_types": ["url"],
-        "output_types": ["información adicional"] 
+        "output_types": ["sesión de navegación aislada", "capturas de pantalla", "renderizado del sitio"]
     },
     "openSquad": {
-        "descripcion": "Identificación de dominios fraudulentos",
-        "url": "https://opensquat.com/",        
+        "descripcion": "Herramienta de detección de dominios sospechosos de typosquatting, phishing y suplantación de marca.",
+        "url": "https://opensquat.com/",
         "categoria": "herramientas",
-        "input_types": ["dominio"],
-        "output_types": ["docminios paracidos registrasdos"] 
+        "input_types": ["dominio", "marca"],
+        "output_types": ["dominios similares registrados", "fecha de registro", "certificados emitidos", "score de similitud", "dominios de phishing activos"]
     },
     "Anyrun": {
-        "descripcion": "Sandbox para prueba de archivos",
-        "url": "https://any.run/",        
+        "descripcion": "Sandbox interactiva en la nube para el análisis dinámico de archivos y URLs maliciosos.",
+        "url": "https://any.run/",
         "categoria": "herramientas",
-        "input_types": ["archivo"],
-        "output_types": ["información adicional"] 
+        "input_types": ["archivo", "url", "hash"],
+        "output_types": ["informe de sandbox", "indicadores de compromiso (IOC)", "tráfico de red", "procesos", "técnicas MITRE ATT&CK", "vídeo de la ejecución", "familia de malware"]
     },
     "Messageheader": {
-        "descripcion": "Análisis de cabeceras de correos electrónicos",
-        "url": "https://toolbox.googleapps.com/apps/messageheader/",        
+        "descripcion": "Herramienta de Google que analiza las cabeceras de un correo electrónico y muestra la ruta de entrega y los retardos de cada salto.",
+        "url": "https://toolbox.googleapps.com/apps/messageheader/",
         "categoria": "herramientas",
         "input_types": ["email header"],
-        "output_types": ["información adicional"] 
+        "output_types": ["servidores de correo", "IP de origen", "ruta de entrega", "retardos", "SPF", "DKIM", "DMARC", "fecha de envío"]
     },
     "Email Header Analyzer": {
-        "descripcion": "Análisis de cabeceras de correos electrónicos",
-        "url": "https://mxtoolbox.com/EmailHeaders.aspx",        
+        "descripcion": "Analizador de cabeceras de correo de MXToolbox que muestra la ruta de los servidores, los retardos y los resultados de autenticación.",
+        "url": "https://mxtoolbox.com/EmailHeaders.aspx",
         "categoria": "herramientas",
         "input_types": ["email header"],
-        "output_types": ["información adicional"] 
+        "output_types": ["servidores de correo", "IP de origen", "ruta de entrega", "retardos", "SPF", "DKIM", "DMARC", "listas negras"]
     },
     "Birdhunt": {
-        "descripcion": "Obtencion de post de X según la ubicación",
-        "url": "https://birdhunt.huntintel.io/",        
+        "descripcion": "Búsqueda de publicaciones de Twitter/X por ubicación geográfica y radio de distancia.",
+        "url": "https://birdhunt.huntintel.io/",
         "categoria": "social data",
-        "input_types": ["ubicación","hashtag"],
-        "output_types": ["posts"] 
+        "input_types": ["ubicación", "hashtag"],
+        "output_types": ["posts geolocalizados", "autores", "fechas", "imágenes y vídeos"]
     },
     "onemilliontweetmap": {
-        "descripcion": "Obtencion de post de X según la ubicación",
-        "url": "https://onemilliontweetmap.com",        
+        "descripcion": "Mapa en tiempo real de publicaciones geolocalizadas de Twitter/X con filtros por hashtag, usuario y sentimiento.",
+        "url": "https://onemilliontweetmap.com",
         "categoria": "social data",
-        "input_types": ["ubicación","hashtag","usuario"],
-        "output_types": ["posts"] 
+        "input_types": ["ubicación", "hashtag", "usuario", "consulta"],
+        "output_types": ["posts geolocalizados", "mapa de calor", "tendencias", "sentiment", "estadísticas"]
     },
     "Advangle": {
-        "descripcion": "Generador de google dorks",
-        "url": "http://advangle.com/",        
+        "descripcion": "Constructor visual de consultas avanzadas para Google y Bing.",
+        "url": "http://advangle.com/",
         "categoria": "buscadores",
-        "input_types": ["parametros"],
-        "output_types": ["consulta"] 
+        "input_types": ["consulta"],
+        "output_types": ["consulta avanzada", "enlace de búsqueda", "historial de consultas"]
     },
     "Google Alerts": {
-        "descripcion": "Alertas de google",
-        "url": "https://www.google.com/alerts",        
+        "descripcion": "Servicio de Google que avisa por correo cuando aparecen nuevos resultados para una consulta.",
+        "url": "https://www.google.com/alerts",
         "categoria": "monitorización",
         "input_types": ["consulta"],
-        "output_types": ["alerta"] 
+        "output_types": ["alertas por email", "nuevos resultados", "feed RSS"]
     },
     "OpenStreetMap": {
-        "descripcion": "Alternativa a Google Maps",
-        "url": "https://www.openstreetmap.org​",        
+        "descripcion": "Mapa mundial libre y editable con datos geográficos colaborativos y su histórico de ediciones.",
+        "url": "https://www.openstreetmap.org​",
         "categoria": "mapas",
         "input_types": ["ubicación"],
-        "output_types": ["información adicional"] 
+        "output_types": ["mapa", "coordenadas", "puntos de interés", "edificios y calles", "histórico de ediciones", "datos de contacto de negocios"]
     },
     "Instant Street View": {
-        "descripcion": "Alternativa a streetview",
-        "url": "https://www.instantstreetview.com​​",        
+        "descripcion": "Acceso rápido a la vista de calle de Google a partir de una dirección o unas coordenadas, con enlace compartible.",
+        "url": "https://www.instantstreetview.com​​",
         "categoria": "mapas",
         "input_types": ["ubicación"],
-        "output_types": ["información adicional"] 
+        "output_types": ["vista de calle", "coordenadas", "imágenes históricas", "enlace compartible"]
     },
     "InVID": {
-        "descripcion": "Herramineta para análisis de videos",
-        "url": "https://www.invid-project.eu/​​",        
+        "descripcion": "Proyecto y conjunto de herramientas para la verificación de vídeos y la detección de desinformación.",
+        "url": "https://www.invid-project.eu/​​",
         "categoria": "herramientas",
-        "input_types": ["video"],
-        "output_types": ["información adicional"] 
+        "input_types": ["video", "url"],
+        "output_types": ["fotogramas clave", "búsqueda inversa de fotogramas", "metadatos", "comentarios del vídeo", "análisis de credibilidad"]
     },
     "ExifTool": {
-        "descripcion": "Herramineta para análisis de imágenes",
-        "url": "https://exiftool.org/​​",        
+        "descripcion": "Utilidad de referencia para leer, escribir y editar los metadatos de imágenes, vídeos y documentos.",
+        "url": "https://exiftool.org/​​",
         "categoria": "herramientas",
-        "input_types": ["imágen"],
-        "output_types": ["metadatos"] 
+        "input_types": ["imagen", "video", "documento", "archivo"],
+        "output_types": ["metadatos EXIF", "IPTC", "XMP", "coordenadas GPS", "fecha de captura", "modelo de dispositivo", "software de edición"]
     },
     "Wolfram Language": {
-        "descripcion": "Herramineta para la identificación de objetos",
-        "url": "https://www.wolfram.com​​",        
+        "descripcion": "Lenguaje y plataforma de computación con funciones de reconocimiento y clasificación de objetos en imágenes y vídeos.",
+        "url": "https://www.wolfram.com​​",
         "categoria": "herramientas",
-        "input_types": ["imágen","video"],
-        "output_types": ["categoria"] 
+        "input_types": ["imagen", "video"],
+        "output_types": ["categoría del objeto", "etiquetas", "nivel de confianza", "análisis de datos", "visualizaciones"]
     },
     "Argus": {
-        "descripcion": "Herramineta para la obtención de información",
-        "url": "https://github.com/jasonxtn/Argus​​",        
+        "descripcion": "Framework en Python con más de 130 módulos de reconocimiento de red, análisis web e inteligencia de amenazas.",
+        "url": "https://github.com/jasonxtn/Argus​​",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "input_types": ["dominio", "IP", "url"],
+        "output_types": ["registros DNS", "whois", "subdominios", "puertos abiertos", "certificados SSL", "tecnologías web", "email", "data breaches", "detección de malware", "informes TXT/CSV/JSON"]
     },
     "DAIXIN Team": {
-        "descripcion": "Repositorio de brechas de datos",
-        "url": "http://7ukmkdtyxdkdivtjad57klqnd3kdsmq6tp45rrsxqnu76zzv3jvitlqd.onion/​​",        
+        "descripcion": "Sitio de filtraciones (leak site) del grupo de ransomware Daixin Team alojado en la red Tor.",
+        "url": "http://7ukmkdtyxdkdivtjad57klqnd3kdsmq6tp45rrsxqnu76zzv3jvitlqd.onion/​​",
         "categoria": "data breaches",
         "input_types": ["n/a"],
-        "output_types": ["data breaches"] 
+        "output_types": ["víctimas", "data breaches", "documentos filtrados", "fechas de publicación"]
     },
     "facebook-533m": {
-        "descripcion": "Descarga de los datos de la brecha de datos de facebook (2021)",
-        "url": "https://github.com/davidfegyver/facebook-533m​​",        
+        "descripcion": "Repositorio con herramientas para consultar el volcado de la filtración de 533 millones de perfiles de Facebook (2021).",
+        "url": "https://github.com/davidfegyver/facebook-533m​​",
         "categoria": "data breaches",
-        "input_types": ["n/a"],
-        "output_types": ["data breaches"] 
+        "input_types": ["teléfono", "email", "nombre"],
+        "output_types": ["teléfono", "nombre", "apellido", "ubicación", "fecha de nacimiento", "género", "empleador", "estado civil"]
     },
     "IPQS": {
-        "descripcion": "Plataforma de detección de fraude",
-        "url": "https://www.ipqualityscore.com",        
+        "descripcion": "Plataforma de detección de fraude que puntúa el riesgo de correos, teléfonos, direcciones IP y URLs.",
+        "url": "https://www.ipqualityscore.com",
         "categoria": "herramientas",
-        "input_types": ["email","teléfono","url"],
-        "output_types": ["score","propietario","información adicional"] 
+        "input_types": ["email", "teléfono", "IP", "url", "dominio"],
+        "output_types": ["score de fraude", "reputación", "propietario", "operador", "tipo de línea", "proxy / VPN / Tor", "detección de bots", "geolocalización", "listas negras"]
     },
     "SEON": {
-        "descripcion": "Plataforma de detección de fraude",
-        "url": "https://seon.io/",        
+        "descripcion": "Plataforma antifraude que enriquece un correo, un teléfono o una IP con su huella digital en más de un centenar de servicios online.",
+        "url": "https://seon.io/",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "input_types": ["email", "teléfono", "IP"],
+        "output_types": ["score de fraude", "cuentas activas", "perfiles en redes sociales", "antigüedad del email", "data breaches", "operador", "tipo de línea", "geolocalización IP", "proxy / VPN"]
     },
     "BUZZMONITOR": {
-        "descripcion": "Plataforma de monitorización de redes sociales",
-        "url": "https://getbuzzmonitor.com/es/",        
+        "descripcion": "Suite de escucha social y gestión de redes sociales con análisis de menciones y de sentimiento.",
+        "url": "https://getbuzzmonitor.com/es/",
         "categoria": "monitorización",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "input_types": ["consulta", "marca", "usuario", "hashtag"],
+        "output_types": ["menciones", "publicaciones", "sentiment", "influencers", "estadísticas", "informes", "alertas"]
     },
     "Social-Media-OSINT-Tools-Collection": {
-        "descripcion": "Repositorio de herramientas OSINT",
-        "url": "https://github.com/osintambition/Social-Media-OSINT-Tools-Collection?tab=readme-ov-file",        
+        "descripcion": "Repositorio en GitHub que recopila más de un centenar de herramientas OSINT centradas en redes sociales.",
+        "url": "https://github.com/osintambition/Social-Media-OSINT-Tools-Collection?tab=readme-ov-file",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "output_types": ["herramientas", "enlaces clasificados por red social"]
     },
     "mention": {
-        "descripcion": "Plataforma de monitorización de redes sociales",
-        "url": "https://mention.com/",        
+        "descripcion": "Plataforma de monitorización de menciones de marca en redes sociales, web y medios de comunicación.",
+        "url": "https://mention.com/",
         "categoria": "monitorización",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "input_types": ["consulta", "marca", "usuario"],
+        "output_types": ["menciones", "sentiment", "alertas", "influencers", "estadísticas", "informes"]
     },
     "twilert": {
-        "descripcion": "Plataforma de monitorización de redes sociales",
-        "url": "https://twilert.com/",        
+        "descripcion": "Servicio de alertas y monitorización de búsquedas guardadas en Twitter/X entregadas por correo electrónico.",
+        "url": "https://twilert.com/",
         "categoria": "monitorización",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "input_types": ["consulta", "usuario", "hashtag", "ubicación"],
+        "output_types": ["alertas por email", "tweets", "sentiment", "informes"]
     },
     "Hoaxy2": {
-        "descripcion": "Plataforma para visualizar de forma gráfica la información de redes sociales",
-        "url": "https://hoaxy.osome.iu.edu/",        
+        "descripcion": "Visualiza la difusión de noticias y afirmaciones en redes sociales y estima el grado de automatización de las cuentas que las amplifican. Su funcionalidad se ha integrado en OSoMeNet.",
+        "url": "https://hoaxy.osome.iu.edu/",
         "categoria": "monitorización",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "input_types": ["consulta", "url", "hashtag"],
+        "output_types": ["grafo de difusión", "cuentas que amplifican", "línea temporal", "puntuación de bots", "estadísticas"]
     },
     "ImgOps": {
-        "descripcion": "Repositorio de herramientas para trabajar con imágenes",
-        "url": "https://imgops.com",        
+        "descripcion": "Portal que lanza sobre una misma imagen decenas de herramientas de análisis, edición y búsqueda inversa.",
+        "url": "https://imgops.com",
         "categoria": "herramientas",
-        "input_types": ["imágen","url"],
-        "output_types": ["información adicional"] 
+        "input_types": ["imagen", "url"],
+        "output_types": ["metadatos EXIF", "búsqueda inversa", "análisis forense", "imágenes similares", "herramientas de edición"]
     },
     "Osgint": {
-        "descripcion": "Obtención de datos de github",
-        "url": "https://github.com/hippiiee/osgint",        
+        "descripcion": "Herramienta que extrae la información pública de una cuenta de GitHub, incluidos los correos asociados a sus commits.",
+        "url": "https://github.com/hippiiee/osgint",
         "categoria": "herramientas",
-        "input_types": ["cuanta github","email"],
-        "output_types": ["usuario","nombre","repositorios","seguidores","email"] 
+        "input_types": ["cuenta github", "email"],
+        "output_types": ["usuario", "nombre", "email", "repositorios", "seguidores", "fecha de creación", "ubicación", "empresa", "imagen perfil"]
     },
     "crt.sh": {
-        "descripcion": "Obtención de certificados SSL",
-        "url": "https://crt.sh",        
+        "descripcion": "Buscador de registros de Certificate Transparency que permite descubrir certificados emitidos y subdominios de un dominio.",
+        "url": "https://crt.sh",
         "categoria": "infraestructura",
-        "input_types": ["dominio"],
-        "output_types": ["hosts","issuer","notBefore","notAfter","serialNumber","SHA1 Fingerprint","SHA256 Fingerprint"] 
+        "input_types": ["dominio", "organización", "hash"],
+        "output_types": ["certificados SSL", "subdominios", "issuer", "notBefore", "notAfter", "serialNumber", "SHA1 Fingerprint", "SHA256 Fingerprint"]
     },
     "Hurricane electric": {
-        "descripcion": "Información sobre direcciónes IP",
-        "url": "https://bgp.he.net/",        
+        "descripcion": "Explorador BGP con información de sistemas autónomos, prefijos anunciados, peerings, DNS y puntos de intercambio.",
+        "url": "https://bgp.he.net/",
         "categoria": "infraestructura",
-        "input_types": ["IP"],
-        "output_types": ["información adicional"] 
+        "input_types": ["IP", "ASN", "dominio", "rango IP"],
+        "output_types": ["ASN", "prefijos anunciados", "peers BGP", "organización", "registros DNS", "puntos de intercambio (IX)", "whois", "DNS inverso"]
     },
     "Team Cymru IP to ASN Lookup v1.0": {
-        "descripcion": "Información sobre direcciónes IP",
-        "url": "https://asn.cymru.com/",        
+        "descripcion": "Servicio de Team Cymru que traduce direcciones IP a su sistema autónomo y a la organización propietaria.",
+        "url": "https://asn.cymru.com/",
         "categoria": "infraestructura",
-        "input_types": ["IP"],
-        "output_types": ["información adicional"] 
+        "input_types": ["IP", "ASN"],
+        "output_types": ["ASN", "prefijo", "organización", "país", "registro regional (RIR)", "fecha de asignación"]
     },
     "Open Source Intelligence (OSINT) Tools & Resources": {
-        "descripcion": "Repositorio de herramientas OSINT",
-        "url": "https://osint.link/",        
+        "descripcion": "Directorio con miles de enlaces a herramientas y recursos OSINT organizados por categoría, además de guías de investigación.",
+        "url": "https://osint.link/",
         "categoria": "herramientas",
         "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "output_types": ["herramientas", "enlaces clasificados", "guías"]
     },
     "ciberpatrulla": {
-        "descripcion": "Repositorio de herramientas OSINT",
-        "url": "https://ciberpatrulla.com/links/",        
+        "descripcion": "Recopilación en español de enlaces y herramientas OSINT mantenida por Ciberpatrulla.",
+        "url": "https://ciberpatrulla.com/links/",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "visualping": {
-        "descripcion": "Monitorización de paginas web",
-        "url": "https://visualping.io/",        
+        "descripcion": "Monitoriza páginas web y avisa cuando su contenido o su aspecto visual cambian.",
+        "url": "https://visualping.io/",
         "categoria": "monitorización",
         "input_types": ["url"],
-        "output_types": ["n/a"] 
+        "output_types": ["alertas de cambio", "capturas comparadas", "histórico de versiones", "diferencias resaltadas"]
     },
     "bitcoinwhoswho": {
-        "descripcion": "Monitorización de billeteras de bitcoin",
-        "url": "https://www.bitcoinwhoswho.com/",        
+        "descripcion": "Buscador de direcciones de Bitcoin con alertas de estafa, comentarios de usuarios y menciones localizadas en la web.",
+        "url": "https://www.bitcoinwhoswho.com/",
         "categoria": "monitorización",
         "input_types": ["wallet"],
-        "output_types": ["scam alert","transacciones","información adicional"] 
+        "output_types": ["scam alert", "transacciones", "balance", "primera y última actividad", "menciones en webs", "comentarios de usuarios"]
     },
     "SaveGram": {
-        "descripcion": "Descarga de imágenes de instagram",
-        "url": "https://savegram.app/en",        
+        "descripcion": "Descarga contenido público de Instagram: fotos, vídeos, reels e historias.",
+        "url": "https://savegram.app/en",
         "categoria": "social data",
-        "input_types": ["cuenta instagram"],
-        "output_types": ["imágenes","videos","Reels", "Stories"] 
+        "input_types": ["cuenta instagram", "url"],
+        "output_types": ["imágenes", "videos", "reels", "stories", "descarga de contenido"]
     },
     "idcrawl": {
-        "descripcion": "Busqueda de datos personales",
-        "url": "https://www.idcrawl.com",        
+        "descripcion": "Buscador de personas que agrega perfiles de redes sociales, registros públicos y menciones web, con foco en Estados Unidos.",
+        "url": "https://www.idcrawl.com",
         "categoria": "social data",
-        "input_types": ["nombre","apellido"],
-        "output_types": ["información personal"] 
+        "input_types": ["nombre", "apellido", "usuario", "teléfono", "email", "ubicación"],
+        "output_types": ["perfiles en redes sociales", "teléfono", "email", "direcciones", "edad", "familiares", "registros públicos", "imágenes"]
     },
     "Cyber Detective's OSINT tools collection": {
-        "descripcion": "Repositorio de herramientas OSINT",
-        "url": "https://github.com/cipher387/osint_stuff_tool_collection",        
+        "descripcion": "Repositorio de Cyber Detective con más de mil herramientas OSINT clasificadas por temática.",
+        "url": "https://github.com/cipher387/osint_stuff_tool_collection",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "Dark Web Informer": {
-        "descripcion": "Repositorio de brechas de datos",
-        "url": "https://darkwebinformer.com/tag/data-breaches/",        
+        "descripcion": "Portal de noticias e inteligencia que publica a diario filtraciones de datos y actividad observada en la dark web.",
+        "url": "https://darkwebinformer.com/tag/data-breaches/",
         "categoria": "data breaches",
         "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "output_types": ["data breaches", "actores de amenaza", "víctimas", "fechas de publicación", "noticias"]
     },
     "Dirección General de Tráfico": {
-        "descripcion": "Información sobre vehículos",
-        "url": "https://sede.dgt.gob.es/es/vehiculos/informacion-de-vehiculos/informe-de-un-vehiculo/",        
+        "descripcion": "Servicio de la DGT que emite el informe oficial de un vehículo a partir de su matrícula o número de bastidor.",
+        "url": "https://sede.dgt.gob.es/es/vehiculos/informacion-de-vehiculos/informe-de-un-vehiculo/",
         "categoria": "vehículos",
-        "input_types": ["matrícula"],
-        "output_types": ["información adicional"] 
+        "input_types": ["matrícula", "número bastidor"],
+        "output_types": ["marca y modelo", "fecha de matriculación", "combustible", "distintivo ambiental", "ITV", "cargas y precintos", "número de titulares", "seguro"]
     },
     "Securiters Wiki": {
-        "descripcion": "Repositorio de herramientas OSINT y seguridad IT",
-        "url": "https://wiki.securiters.com/securiters-wiki",        
+        "descripcion": "Wiki en español con recursos, metodologías y herramientas de OSINT y seguridad informática.",
+        "url": "https://wiki.securiters.com/securiters-wiki",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "output_types": ["herramientas", "metodologías", "enlaces clasificados"]
     },
     "Instaloader": {
-        "descripcion": "Herramineta para descargar imágenes y datos de Instagram",
+        "descripcion": "Herramienta en Python para descargar publicaciones, historias, metadatos y listas de seguidores de Instagram.",
         "url": "https://github.com/instaloader/instaloader",
         "categoria": "herramientas",
-        "input_types": ["cuenta instagram"],
-        "output_types": ["imágenes", "historias","datos personales"]
+        "input_types": ["cuenta instagram", "hashtag", "ubicación"],
+        "output_types": ["imágenes", "videos", "stories", "highlights", "comentarios", "metadatos JSON", "followers", "following", "geolocalización"]
     },
     "GoSearch": {
-        "descripcion": "Herramineta para buscar sericios a los que se ha suscrito un usuario",
+        "descripcion": "Herramienta en Go que busca un nombre de usuario en más de 300 sitios y lo cruza con bases de datos de credenciales filtradas.",
         "url": "https://github.com/ibnaleem/gosearch",
         "categoria": "herramientas",
         "input_types": ["usuario"],
-        "output_types": ["Redes sociales o servicios activos"]
+        "output_types": ["cuentas activas", "enlaces a perfiles", "data breaches", "contraseñas", "hashes", "dominios registrados"]
     },
     "phomber": {
-        "descripcion": "Información de telefonos, direcciónes MAC y IP's",
+        "descripcion": "Framework OSINT de línea de comandos para consultar teléfonos, direcciones IP y MAC, dominios y nombres de usuario.",
         "url": "https://github.com/s41r4j/phomber",
         "categoria": "herramientas",
-        "input_types": ["teléfono","IP","dirección MAC","dominio"],
-        "output_types": ["Redes sociales o servicios activos"]
+        "input_types": ["teléfono", "IP", "dirección MAC", "dominio", "usuario"],
+        "output_types": ["operador", "país", "geolocalización IP", "whois", "registros DNS", "fabricante MAC", "cuentas activas"]
     },
     "instagram_monitor": {
-        "descripcion": "Monitoreo de cuentas de Instagram",
+        "descripcion": "Herramienta que vigila una cuenta de Instagram y notifica los cambios en publicaciones, seguidores y biografía.",
         "url": "https://github.com/misiektoja/instagram_monitor",
         "categoria": "herramientas",
         "input_types": ["cuenta instagram"],
-        "output_types": ["información adicional"]
+        "output_types": ["nuevas publicaciones", "cambios en followers", "cambios en following", "cambios de biografía", "cambios de imagen perfil", "stories", "alertas"]
     },
     "doxbin": {
-        "descripcion": "Plataforma para compartir información personal",
+        "descripcion": "Sitio de tipo pastebin utilizado para publicar información personal filtrada (doxing) de individuos.",
         "url": "https://doxbin.net/",
         "categoria": "repositorio",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "input_types": ["nombre", "usuario"],
+        "output_types": ["información personal", "direcciones", "teléfonos", "email", "documentos"]
     },
     "RADAR": {
-        "descripcion": "Portal de ransomware y brechas de datos",
+        "descripcion": "Portal en la red Tor que publica noticias e incidentes de ransomware y filtraciones de datos.",
         "url": "http://3bnusfu2lgk5at43ceu7cdok5yv4gfbono2jv57ho74ucjvc7czirfid.onion/news",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "output_types": ["víctimas", "data breaches", "actores de amenaza", "noticias", "fechas de publicación"]
     },
     "LeackCheck": {
-        "descripcion": "Repositorio de brechas de datos",
-        "url": "https://leakcheck.io",        
+        "descripcion": "Motor de búsqueda de brechas de datos (LeakCheck) con más de 10.000 millones de registros procedentes de filtraciones y logs de infostealers.",
+        "url": "https://leakcheck.io",
         "categoria": "data breaches",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["email", "usuario", "teléfono", "hash", "dominio", "consulta"],
+        "output_types": ["data breaches", "contraseñas", "nombre", "fecha de nacimiento", "teléfono", "dirección", "logs de infostealer", "nivel de riesgo"]
     },
     "LeakPeek": {
-        "descripcion": "Repositorio de brechas de datos",
-        "url": "https://leakpeek.com/",        
+        "descripcion": "Buscador de filtraciones con más de 8.000 millones de registros públicos y nueve tipos de selector de búsqueda.",
+        "url": "https://leakpeek.com/",
         "categoria": "data breaches",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["email", "usuario", "contraseña", "dominio", "IP", "nombre", "hash", "teléfono", "consulta"],
+        "output_types": ["data breaches", "email", "contraseñas", "hashes", "origen de la filtración"]
     },
     "Leak-Lookup": {
-        "descripcion": "Repositorio de brechas de datos",
-        "url": "https://leak-lookup.com/",        
+        "descripcion": "Motor de búsqueda de credenciales comprometidas con más de 28.000 millones de registros de 4.700 brechas y API de consulta.",
+        "url": "https://leak-lookup.com/",
         "categoria": "data breaches",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["email", "usuario", "contraseña", "dominio", "hash", "teléfono"],
+        "output_types": ["data breaches", "contraseñas", "origen de la filtración", "fecha de la brecha"]
     },
     "searchhub": {
-        "descripcion": "Repositorio de brechas de datos",
-        "url": "https://searchhub.vip/",        
+        "descripcion": "Plataforma OSINT de búsqueda y correlación de datos filtrados, con cobertura de Discord, plataformas de juego, correos e IPs.",
+        "url": "https://searchhub.vip/",
         "categoria": "data breaches",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["email", "usuario", "IP", "teléfono"],
+        "output_types": ["data breaches", "contraseñas", "cuentas asociadas", "IP", "información personal"]
     },
     "CloudRip": {
-        "descripcion": "Herramienta para obtener subdominios de un dominio y sus direcciónes IP reales",
-        "url": "https://github.com/staxsum/CloudRip.git",        
+        "descripcion": "Enumera los subdominios de un dominio y descubre las direcciones IP reales ocultas tras Cloudflare.",
+        "url": "https://github.com/staxsum/CloudRip.git",
         "categoria": "herramientas",
         "input_types": ["dominio"],
-        "output_types": ["subdominios","direcciónes IP"] 
+        "output_types": ["subdominios", "direcciones IP", "IPs protegidas por Cloudflare", "IPv4", "IPv6", "exportación JSON/YAML/CSV"]
     },
     "Robin": {
-        "descripcion": "Herramienta para realizar busquedas en la dark web",
-        "url": "https://github.com/apurvsinghgautam/robin",        
+        "descripcion": "Herramienta asistida por IA para realizar investigaciones en la dark web: refina las consultas, filtra los resultados y resume los hallazgos.",
+        "url": "https://github.com/apurvsinghgautam/robin",
         "categoria": "buscadores",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["consulta"],
+        "output_types": ["resultados de búsqueda", "dominios .onion", "resúmenes", "consultas sugeridas", "informes"]
     },
     "Triage": {
-        "descripcion": "Herramienta para analizar malware de forma dinamica",
-        "url": "https://tria.ge",        
+        "descripcion": "Sandbox de análisis dinámico automatizado de malware que extrae configuraciones e indicadores de las muestras.",
+        "url": "https://tria.ge",
         "categoria": "herramientas",
-        "input_types": ["archivo"],
-        "output_types": ["n/a"] 
+        "input_types": ["archivo", "url", "hash"],
+        "output_types": ["informe de sandbox", "familia de malware", "indicadores de compromiso (IOC)", "configuración extraída", "tráfico de red", "técnicas MITRE ATT&CK", "capturas de pantalla"]
     },
     "WhoisFreaks": {
-        "descripcion": "Herramienta para obtener información sobre dominios",
-        "url": "https://whoisfreaks.com/",        
+        "descripcion": "API y servicio web de datos whois, DNS y certificados con histórico y búsqueda inversa.",
+        "url": "https://whoisfreaks.com/",
         "categoria": "herramientas",
-        "input_types": ["dominio"],
-        "output_types": ["n/a"] 
+        "input_types": ["dominio", "IP", "email", "nombre", "organización"],
+        "output_types": ["registros whois", "histórico whois", "whois inverso", "registros DNS", "subdominios", "certificados SSL", "fechas de registro y expiración", "registrador"]
     },
     "Instant Data Scraper": {
-        "descripcion": "Scraper de datos para navegadores",
-        "url": "https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US&utm_source=ext_sidebar",        
+        "descripcion": "Extensión de Chrome que detecta automáticamente las tablas y los listados de una página web y los exporta.",
+        "url": "https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US&utm_source=ext_sidebar",
         "categoria": "extensiones",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["url"],
+        "output_types": ["tablas de datos", "exportación CSV/XLSX", "paginación automática"]
     },
     "Fake news debunker by InVID & WeVerify": {
-        "descripcion": "Extensión para la verificación de noticias falsas",
-        "url": "https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en",        
+        "descripcion": "Extensión de verificación que analiza vídeos, imágenes y cuentas para detectar desinformación.",
+        "url": "https://chromewebstore.google.com/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe?hl=en",
         "categoria": "extensiones",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["video", "imagen", "url"],
+        "output_types": ["fotogramas clave", "búsqueda inversa", "metadatos", "análisis forense de imagen", "datos del vídeo", "análisis de cuentas"]
     },
     "TinEye Reverse Image Search": {
-        "descripcion": "Extensión para la búsqueda inversa de imágenes",
-        "url": "https://chromewebstore.google.com/detail/tineye-reverse-image-sear/haebnnbpedcbhciplfhjjkbafijpncjl",        
+        "descripcion": "Extensión de navegador que envía cualquier imagen de una página a la búsqueda inversa de TinEye.",
+        "url": "https://chromewebstore.google.com/detail/tineye-reverse-image-sear/haebnnbpedcbhciplfhjjkbafijpncjl",
         "categoria": "extensiones",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"] 
+        "input_types": ["imagen", "url"],
+        "output_types": ["imágenes coincidentes", "URLs de coincidencias", "fuentes web", "primera aparición"]
     },
     "Blockchair": {
-        "descripcion": "Servicio web para la exploración de blockchain",
-        "url": "https://blockchair.com/",        
+        "descripcion": "Explorador multiblockchain con buscador avanzado, analítica y etiquetado de direcciones.",
+        "url": "https://blockchair.com/",
         "categoria": "herramientas",
-        "input_types": ["wallet","bloque"],
-        "output_types": ["transacciónes","balances","información adicional"] 
+        "input_types": ["wallet", "transacción", "bloque", "dominio"],
+        "output_types": ["transacciones", "balances", "histórico de movimientos", "bloques", "comisiones", "etiquetas de direcciones", "gráficos y estadísticas"]
     },
     "Blockchain.com": {
-        "descripcion": "Servicio web para la exploración de blockchain",
-        "url": "https://www.blockchain.com/",        
+        "descripcion": "Explorador de las cadenas de bloques de Bitcoin, Ethereum y Bitcoin Cash con datos de mercado.",
+        "url": "https://www.blockchain.com/",
         "categoria": "herramientas",
-        "input_types": ["wallet","bloque"],
-        "output_types": ["transacciónes","balances","información adicional"] 
+        "input_types": ["wallet", "transacción", "bloque"],
+        "output_types": ["transacciones", "balances", "confirmaciones", "bloques", "comisiones", "estadísticas de red"]
     },
     "social-analyzer": {
-        "descripcion": "Herramienta para la búsqueda de usuarios en redes sociales",
-        "url": "https://github.com/qeeqbox/social-analyzer",        
+        "descripcion": "API y herramienta que localiza y analiza los perfiles de una persona en más de mil sitios aplicando una puntuación de coincidencia.",
+        "url": "https://github.com/qeeqbox/social-analyzer",
         "categoria": "herramientas",
-        "input_types": ["usuario"],
-        "output_types": ["información adicional"] 
+        "input_types": ["usuario", "nombre"],
+        "output_types": ["perfiles en redes sociales", "nivel de confianza", "nombre", "imagen perfil", "metadatos del perfil", "informes JSON"]
     },
     "TrueCallerz": {
-        "descripcion": "Bot de Telegram para buscar información de teléfonos",
-        "url": "@True_Callerzbot",        
+        "descripcion": "Bot de Telegram que consulta bases de datos de identificación de llamadas para un número de teléfono.",
+        "url": "@True_Callerzbot",
         "categoria": "bot telegram",
         "input_types": ["teléfono"],
-        "output_types": ["información adicional"] 
+        "output_types": ["propietario", "operador", "país", "etiquetas de spam"]
     },
     "wigle": {
-        "descripcion": "Herramienta para búsqueda de redes wifi y puntos de acceso",
-        "url": "https://wigle.net/",        
+        "descripcion": "Base de datos colaborativa mundial de redes Wi-Fi, antenas de telefonía y dispositivos Bluetooth geolocalizados.",
+        "url": "https://wigle.net/",
         "categoria": "herramientas",
-        "input_types": ["BSSID","SSID"],
-        "output_types": ["información adicional"] 
+        "input_types": ["BSSID", "SSID", "ubicación"],
+        "output_types": ["coordenadas", "dirección", "SSID", "BSSID", "tipo de cifrado", "canal", "fabricante", "fecha de avistamiento", "mapa"]
     },
     "Mr.Holmes": {
-        "descripcion": "Herramienta para búsqueda de información personal",
-        "url": "https://github.com/Lucksi/Mr.Holmes",        
+        "descripcion": "Framework OSINT que reúne en una sola herramienta la búsqueda de usuarios, teléfonos, dominios y dorks.",
+        "url": "https://github.com/Lucksi/Mr.Holmes",
         "categoria": "herramientas",
-        "input_types": ["usuario","teléfono","email"],
-        "output_types": ["información adicional"] 
+        "input_types": ["usuario", "teléfono", "email", "dominio"],
+        "output_types": ["cuentas activas", "operador", "geolocalización", "registros whois", "registros DNS", "dorks", "metadatos", "informes"]
     },
     "spiderfoot": {
-        "descripcion": "Herramienta para búsqueda de información personal",
-        "url": "https://github.com/smicallef/spiderfoot",        
+        "descripcion": "Plataforma de automatización OSINT con más de 200 módulos que correlaciona datos de múltiples fuentes sobre un objetivo.",
+        "url": "https://github.com/smicallef/spiderfoot",
         "categoria": "herramientas",
-        "input_types": ["IP","dominio","usuario","teléfono","email","nombre"],
-        "output_types": ["información adicional"] 
+        "input_types": ["IP", "rango IP", "dominio", "usuario", "teléfono", "email", "nombre", "ASN"],
+        "output_types": ["subdominios", "direcciones IP", "email", "data breaches", "puertos abiertos", "tecnologías web", "registros whois", "certificados SSL", "cuentas activas", "vulnerabilidades", "grafo de relaciones", "informes"]
     },
     "phoneinfoga": {
-        "descripcion": "Herramienta para búsqueda de información de teléfonos",
-        "url": "https://github.com/sundowndev/phoneinfoga",        
+        "descripcion": "Herramienta de reconocimiento de números de teléfono internacionales que identifica al operador, el formato y la huella del número en buscadores.",
+        "url": "https://github.com/sundowndev/phoneinfoga",
         "categoria": "herramientas",
         "input_types": ["teléfono"],
-        "output_types": ["información adicional"] 
+        "output_types": ["país", "operador", "tipo de línea", "formato internacional", "zona horaria", "resultados de búsqueda", "enlaces a redes sociales", "reputación"]
     },
     "lopseg": {
-        "descripcion": "Conjunto de herramientas OSINT",
-        "url": "https://lopseg.com.br/osint",        
+        "descripcion": "Colección brasileña de enlaces y herramientas OSINT clasificadas por tipo de investigación.",
+        "url": "https://lopseg.com.br/osint",
         "categoria": "herramientas",
         "input_types": ["n/a"],
-        "output_types": ["información adicional"] 
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "OSINT4ALL": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Colección en start.me con cientos de recursos y herramientas OSINT organizados por categoría.",
         "url": "https://start.me/p/L1rEYQ/osint4all",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "LeakIX": {
-        "descripcion": "Motor de búsqueda para identificación de filtraciones de datos y servicios mal configurados en Internet",
+        "descripcion": "Motor de búsqueda que indexa servicios expuestos y mal configurados en Internet junto con las filtraciones detectadas en ellos.",
         "url": "https://leakix.net/",
         "categoria": "buscadores",
-        "input_types": ["puerto","IP","ASN","protocolo"],
-        "output_types": ["IP","ASN","puertos","response","certificados","riesgos"]
+        "input_types": ["IP", "rango IP", "dominio", "puerto", "ASN", "protocolo", "consulta"],
+        "output_types": ["IP", "ASN", "puertos abiertos", "servicios", "banners de servicio", "certificados SSL", "filtraciones detectadas", "vulnerabilidades", "informes", "grafo de relaciones"]
     },
     "People Data Labs": {
-        "descripcion": "People Data Labs (PDL) es una plataforma de infraestructura de datos B2B enfocada en proporcionar información masiva y detallada sobre personas y empresas a nivel global.",
+        "descripcion": "Proveedor de datos B2B con perfiles enriquecidos de personas y empresas a escala global, accesible mediante API.",
         "url": "https://peopledatalabs.com",
         "categoria": "herramientas",
-        "input_types": ["email", "LinkedIn URL", "nombre", "nombre empresa"],
-        "output_types": ["redes sociales activas", "datos empresa", "datos personales"]
+        "input_types": ["email", "LinkedIn URL", "nombre", "teléfono", "nombre empresa", "dominio"],
+        "output_types": ["nombre", "puesto y experiencia laboral", "formación", "perfiles en redes sociales", "email", "teléfono", "ubicación", "datos de empresa", "sector", "número de empleados"]
     },
     "CSIDB": {
-        "descripcion": "CSIDB.net (Cyber Security Incident Database) es una plataforma de inteligencia de amenazas de código abierto",
+        "descripcion": "Base de datos abierta de incidentes de ciberseguridad (Cyber Security Incident Database) con víctimas, actores de amenaza y estadísticas.",
         "url": "https://www.csidb.net/",
         "categoria": "data breaches",
-        "input_types": ["incidentes", "nombre empresa", "actores amenaza"],
-        "output_types": ["información adicional","fuentes","data breaches"]
+        "input_types": ["nombre empresa", "actor de amenaza", "país"],
+        "output_types": ["incidentes", "víctimas", "actores de amenaza", "fechas", "sector", "país", "fuentes", "estadísticas"]
     },
     "hunter": {
-        "descripcion": "Su objetivo principal es ayudar a empresas y profesionales a conectar con las personas adecuadas de cualquier organización de forma rápida y verificada.",
+        "descripcion": "Servicio que descubre y verifica las direcciones de correo corporativas asociadas a un dominio y su patrón de construcción.",
         "url": "https://hunter.io/",
         "categoria": "herramientas",
-        "input_types": ["dominio", "email"],
-        "output_types": ["información adicional"]
+        "input_types": ["dominio", "email", "nombre empresa", "nombre"],
+        "output_types": ["email", "patrón de correo corporativo", "nombre", "puesto", "departamento", "fuentes", "verificación de entregabilidad", "nivel de confianza"]
     },
     "osintsearchengine": {
-        "descripcion": "Buscador profesional de inteligencia.",
+        "descripcion": "Buscador comercial de inteligencia que consulta múltiples fuentes y bases de datos a partir de un único selector.",
         "url": "https://app.osintsearchengine.com/",
         "categoria": "herramientas",
-        "input_types": ["IP","usuario","nombre","dominio", "teléfono","email","nombre empresa"],
-        "output_types": ["información adicional"]
+        "input_types": ["email", "teléfono", "usuario", "nombre", "dominio", "IP", "nombre empresa"],
+        "output_types": ["información personal", "cuentas activas", "data breaches", "datos de contacto", "informes"]
     },
     "okcaller": {
-        "descripcion": "Servicio para obtencio de información de teléfonos",
+        "descripcion": "Servicio de identificación inversa de llamadas en Estados Unidos con comentarios aportados por la comunidad.",
         "url": "https://okcaller.com/",
         "categoria": "herramientas",
         "input_types": ["teléfono"],
-        "output_types": ["información adicional"]
+        "output_types": ["propietario", "tipo de línea", "operador", "ubicación", "etiquetas de spam", "comentarios de usuarios"]
     },
     "claritycheck": {
-        "descripcion": "Servicio para obtencio de información de teléfonos",
+        "descripcion": "Servicio de búsqueda inversa de teléfonos y correos que identifica al titular y los datos públicos asociados.",
         "url": "https://claritycheck.com/",
         "categoria": "herramientas",
-        "input_types": ["teléfono"],
-        "output_types": ["información adicional"]
+        "input_types": ["teléfono", "email"],
+        "output_types": ["propietario", "operador", "tipo de línea", "direcciones", "familiares", "email", "perfiles en redes sociales", "historial de ubicaciones", "empleo"]
     },
     "osintgram": {
-        "descripcion": "Información de cuentas de instagram",
+        "descripcion": "Herramienta interactiva de OSINT sobre Instagram que analiza cualquier cuenta pública a partir de su nombre de usuario.",
         "url": "https://osintgram.com/",
         "categoria": "social data",
         "input_types": ["cuenta instagram"],
-        "output_types": ["imágen perfil","posts", "followers", "following", "stories", "tagged"]
+        "output_types": ["imagen perfil", "información de la cuenta", "posts", "stories", "followers", "following", "tagged", "comentarios", "likes", "email de seguidores", "hashtags", "ubicaciones"]
     },
     "dehashed": {
-        "descripcion": "Busqueda de filtraciones masivas.",
+        "descripcion": "Motor de búsqueda de credenciales y datos filtrados con consulta por múltiples selectores y acceso por API.",
         "url": "https://dehashed.com/",
         "categoria": "data breaches",
-        "input_types": ["usuario","email"],
-        "output_types": ["filtraciones conocidas","contraseñas","información adicional"]
+        "input_types": ["email", "usuario", "contraseña", "hash", "nombre", "teléfono", "IP", "dominio"],
+        "output_types": ["data breaches", "contraseñas", "hashes", "nombre", "dirección", "teléfono", "IP", "origen de la filtración"]
     },
     "osint-suite-tools": {
-        "descripcion": "Conjunto de herramientas en Python para investigaciones OSINT y SOCMINT.",
+        "descripcion": "Conjunto de scripts en Python de Quantika14 para investigaciones OSINT y SOCMINT: personas, nicks, teléfonos, correos y noticias falsas.",
         "url": "https://github.com/Quantika14/osint-suite-tools",
         "categoria": "herramientas",
-        "input_types": ["usuario","email", "nombre", "dominio", "IP"],
-        "output_types": ["información adicional"]
+        "input_types": ["nombre", "usuario", "teléfono", "email", "url"],
+        "output_types": ["perfiles en redes sociales", "registros mercantiles", "menciones web", "datos de contacto", "verificación de noticias", "informes"]
     },
     "osint-for countries MAP": {
-        "descripcion": "Mapa con enlaces a herramientas OSINT clasificadas por país",
+        "descripcion": "Mapa interactivo con los recursos y herramientas OSINT específicos de cada país: registros mercantiles, catastros, directorios y bases de datos judiciales.",
         "url": "https://map.wddadk.com/",
         "categoria": "repositorio",
-        "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "input_types": ["país"],
+        "output_types": ["herramientas", "registros mercantiles", "catastros", "directorios telefónicos", "bases de datos judiciales", "enlaces clasificados por país"]
     },
     "The Pika's OSINT ToolBox": {
-        "descripcion": "Repositorio de herramientas OSINT.",
+        "descripcion": "Repositorio en GitHub con una recopilación de herramientas y recursos OSINT.",
         "url": "https://github.com/passthesh3ll/The-Pika-s-OSINT-ToolBox",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "v3nari-bookmarks": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Marcadores en start.me con una amplia colección de herramientas OSINT y de investigación.",
         "url": "https://start.me/p/1kxyw9/v3nari-bookmarks",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "Legendary_OSINT": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Repositorio de K2SOsint con recopilaciones de herramientas y recursos OSINT.",
         "url": "https://github.com/K2SOsint/Legendary_OSINT?tab=readme-ov-file",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados"]
     },
     "OSINT Tools and Resources Handbook": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Manual de referencia con cientos de herramientas y recursos OSINT documentados y descritos.",
         "url": "https://www.osinthandbook.com",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "enlaces clasificados", "documentación"]
     },
     "waybien": {
-        "descripcion": "Buscador en canales de redes sociales",
+        "descripcion": "Buscador y directorio de grupos y canales públicos de Telegram, Discord, WhatsApp y otras plataformas de mensajería.",
         "url": "https://waybien.com",
         "categoria": "buscadores",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"]
+        "input_types": ["consulta"],
+        "output_types": ["grupos y canales", "plataforma", "enlaces de invitación", "número de miembros", "descripción"]
     },
     "Global Energy Monitor": {
-        "descripcion": "Mapa con información sobre energía global",
+        "descripcion": "Base de datos y mapas abiertos sobre infraestructuras energéticas mundiales: centrales, gasoductos, minas y proyectos en desarrollo.",
         "url": "https://globalenergymonitor.org/",
         "categoria": "mapas",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"]
+        "input_types": ["ubicación", "país"],
+        "output_types": ["instalaciones energéticas", "coordenadas", "capacidad", "propietario", "estado del proyecto", "mapas", "conjuntos de datos descargables"]
     },
     "BreachForums": {
-        "descripcion": "Foro para discutir filtraciones de datos",
+        "descripcion": "Foro clandestino en el que se publican, comercializan y discuten filtraciones de datos.",
         "url": "https://breachforums.sb/",
         "categoria": "data breaches",
-        "input_types": ["n/a"],
-        "output_types": [""]
+        "input_types": ["consulta", "nombre empresa"],
+        "output_types": ["data breaches", "muestras de datos", "actores de amenaza", "fechas de publicación"]
     },
     "Arkham": {
-        "descripcion": "Inteligencia y análisis de criptoactivos",
+        "descripcion": "Plataforma de inteligencia sobre criptoactivos que desanonimiza y etiqueta direcciones de blockchain asociándolas a entidades reales.",
         "url": "https://intel.arkm.com",
         "categoria": "criptoactivos",
-        "input_types": ["tocken","wallet","direccion"],
-        "output_types": ["información adicional"]
+        "input_types": ["wallet", "token", "transacción"],
+        "output_types": ["entidad propietaria", "etiquetas de direcciones", "balances", "transacciones", "flujos entre entidades", "alertas", "gráficos"]
     },
     "SOCRadar": {
-        "descripcion": "Plataforma de detección de amenazas y ciberinteligencia",
+        "descripcion": "Plataforma de inteligencia de amenazas y gestión de la superficie de ataque con vigilancia de la dark web.",
         "url": "https://socradar.io",
         "categoria": "herramientas",
-        "input_types": ["dominio","email"],
-        "output_types": ["información adicional"]
+        "input_types": ["dominio", "email", "IP", "nombre empresa", "marca"],
+        "output_types": ["activos expuestos", "credenciales filtradas", "menciones en dark web", "dominios de phishing", "vulnerabilidades", "indicadores de compromiso (IOC)", "alertas", "informes"]
     },
     "OSINT Tools Library": {
-        "descripcion": "Directorio de herramientas OSINT para diversas categorías y propósitos",
+        "descripcion": "Directorio de la OSINT Newsletter con herramientas clasificadas por categoría, coste y caso de uso.",
         "url": "https://tools.osintnewsletter.com/",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["herramientas"]
+        "output_types": ["herramientas", "categoría", "coste", "enlaces"]
     },
     "TOR Node Archive": {
-        "descripcion": "Directorio de nodos TOR.",
+        "descripcion": "Archivo histórico de relés de la red Tor, actualizado cada tres horas, con más de 212.000 direcciones IP registradas.",
         "url": "https://tor-archive.github.io/",
         "categoria": "repositorio",
-        "input_types": ["n/a"],
-        "output_types": ["IP"]
+        "input_types": ["IP", "ASN", "país"],
+        "output_types": ["IP", "tipo de relé (entrada, salida o intermedio)", "geolocalización", "ASN", "puertos", "hosting", "histórico de actividad", "exportación CSV/JSON"]
     },
     "crowd threat": {
-        "descripcion": "Mapa de amenazas globales.",
+        "descripcion": "Plataforma de alerta temprana que cartografía amenazas y sucesos globales a partir de informes verificados de colaboradores locales.",
         "url": "https://app.crowdthreat.world",
         "categoria": "mapas",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "input_types": ["ubicación"],
+        "output_types": ["incidentes geolocalizados", "mapa de amenazas", "nivel de verificación", "alertas", "analíticas"]
     },
     "bravedown": {
-        "descripcion": "Descarga de vídeos de redes sociales.",
+        "descripcion": "Descarga vídeos y audio de más de treinta plataformas sociales a partir de su enlace.",
         "url": "https://bravedown.com/",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "input_types": ["url"],
+        "output_types": ["videos MP4", "audio MP3", "descarga sin marca de agua", "distintas resoluciones"]
     },
     "awesome-hacker-search-engines": {
-        "descripcion": "Repositorio de herramientas OSINT",
+        "descripcion": "Lista curada de motores de búsqueda útiles en seguridad ofensiva y OSINT, clasificados por tipo de dato.",
         "url": "https://github.com/edoardottt/awesome-hacker-search-engines",
         "categoria": "repositorio",
         "input_types": ["n/a"],
-        "output_types": ["n/a"]
+        "output_types": ["buscadores", "enlaces clasificados"]
     },
     "breachdirectory": {
-        "descripcion": "Portal de credenciales filtradas",
+        "descripcion": "Buscador de credenciales filtradas que muestra las contraseñas parcialmente ofuscadas junto con su hash.",
         "url": "https://breachdirectory.org/",
         "categoria": "data breaches",
-        "input_types": ["usuario","email"],
-        "output_types": ["contraseñas"]
+        "input_types": ["email", "usuario", "teléfono", "hash", "dominio"],
+        "output_types": ["data breaches", "contraseñas parciales", "hashes", "origen de la filtración"]
     },
     "leaker": {
-        "descripcion": "Herramianta para obtener credenciales filtradas",
+        "descripcion": "Herramienta en Go que consulta trece bases de datos de filtraciones y devuelve las credenciales encontradas ya deduplicadas.",
         "url": "https://github.com/vflame6/leaker",
         "categoria": "herramientas",
-        "input_types": ["usuario","email","dominio","teléfono"],
-        "output_types": ["contraseñas"]
+        "input_types": ["email", "usuario", "dominio", "teléfono", "consulta"],
+        "output_types": ["data breaches", "contraseñas", "origen de la filtración", "exportación JSONL"]
     },
     "behindtheemail": {
-        "descripcion": "Herramienta onlaine para búsqueda de información de correos electrónicos",
+        "descripcion": "Plataforma OSINT que revela la identidad y la huella digital asociadas a una dirección de correo electrónico.",
         "url": "https://behindtheemail.com",
         "categoria": "herramientas",
         "input_types": ["email"],
-        "output_types": ["información adicional"]
+        "output_types": ["nombre", "puesto y experiencia laboral", "formación", "perfiles en redes sociales", "usuario", "ubicación", "data breaches", "habilidades", "exportación Excel/CSV"]
     },
     "cala": {
-        "descripcion": "Platafoma para obtención de datos verificados",
+        "descripcion": "Infraestructura de datos que entrega información pública verificada y estructurada (registros regulatorios, mercados, sanciones) a agentes de IA mediante API o MCP.",
         "url": "https://www.cala.ai",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"]
+        "input_types": ["nombre empresa", "consulta"],
+        "output_types": ["datos estructurados", "fuentes y citas", "registros regulatorios", "listas de sanciones", "datos de mercado", "histórico"]
     },
     "whocalld": {
-        "descripcion": "Informacion de números de teléfono",
+        "descripcion": "Buscador inverso de números de teléfono de ámbito internacional que identifica al titular o a la empresa asociada.",
         "url": "https://whocalld.com/",
         "categoria": "herramientas",
         "input_types": ["teléfono"],
-        "output_types": ["información adicional"]
+        "output_types": ["propietario", "operador", "país", "tipo de línea", "ubicación", "etiquetas de spam"]
     },
     "opengridworks": {
-        "descripcion": "Informacion de infrastructuras",
+        "descripcion": "Mapa interactivo mundial de infraestructura eléctrica y crítica construido con datos abiertos: centrales, líneas de alta tensión, subestaciones, centros de datos y cables submarinos.",
         "url": "https://opengridworks.com/",
         "categoria": "mapas",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"]
+        "input_types": ["ubicación", "país"],
+        "output_types": ["centrales eléctricas", "líneas de transmisión", "subestaciones", "centros de datos", "gasoductos", "cables submarinos", "coordenadas", "propietario", "capacidad", "conjuntos de datos descargables"]
     },
     "analystresearchtools": {
-        "descripcion": "Conjunto de herramientas OSINT",
+        "descripcion": "Portal que lanza búsquedas simultáneas en múltiples servicios de personas, redes sociales, vehículos, archivos web y dominios.",
         "url": "https://analystresearchtools.com/",
         "categoria": "herramientas",
-        "input_types": ["n/a"],
-        "output_types": ["información adicional"]
+        "input_types": ["nombre", "email", "teléfono", "usuario", "matrícula", "número bastidor", "dominio"],
+        "output_types": ["registros públicos", "perfiles en redes sociales", "datos de vehículos", "registros whois", "archivos web", "formatos de correo corporativo"]
     },
     "user-scanner": {
-        "descripcion": "Herramienta para búsqueda de información personal",
+        "descripcion": "Suite OSINT que rastrea más de 350 plataformas comprobando a la vez correos y nombres de usuario, con soporte de listas y proxies.",
         "url": "https://github.com/kaifcodec/user-scanner",
         "categoria": "herramientas",
-        "input_types": ["email","usuario"],
-        "output_types": ["cuentas activas"]
+        "input_types": ["email", "usuario"],
+        "output_types": ["cuentas activas", "estado del registro", "metadatos del perfil", "logs de infostealer", "exportación JSON/CSV"]
+    },
+    "bbot": {
+        "descripcion": "Framework modular y recursivo para automatizar tareas de OSINT, reconocimiento, bug bounty y gestión de la superficie de ataque.",
+        "url": "https://github.com/blacklanternsecurity/bbot",
+        "categoria": "herramientas",
+        "input_types": ["dominio", "IP", "rango IP", "puerto", "url", "email", "organización", "usuario", "sistema de archivos", "aplicación móvil"],
+        "output_types": ["subdominios", "direcciones IP", "puertos abiertos", "URLs", "servicios", "tecnologías web", "capturas web", "vulnerabilidades", "hallazgos OSINT", "grafo de relaciones"]
+    },
+    "lenso-ai": {
+        "descripcion": "Motor de búsqueda inversa de imágenes basado en IA para localizar rostros, lugares, duplicados y contenido visual relacionado o similar.",
+        "url": "https://lenso.ai/",
+        "categoria": "herramientas",
+        "input_types": ["imagen"],
+        "output_types": ["personas", "rostros coincidentes", "lugares", "duplicados", "imágenes similares", "imágenes relacionadas", "fuentes web", "URLs de coincidencias"]
     }
 }
