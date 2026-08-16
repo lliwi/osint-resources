@@ -1181,5 +1181,26 @@
         "categoria": "herramientas",
         "input_types": ["imagen"],
         "output_types": ["personas", "rostros coincidentes", "lugares", "duplicados", "imágenes similares", "imágenes relacionadas", "fuentes web", "URLs de coincidencias"]
+    },
+    "panzer": {
+        "descripcion": "Portal en la red Tor que publica datos de brechas de seguridad.",
+        "url": "https://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion",
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["datos comprometidos"]
+    },
+    "Aur0ra blog": {
+        "descripcion": "Portal en la red Tor que publica datos de brechas de seguridad.",
+        "url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion",
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["datos comprometidos"]
+    },
+    "INC Ransom": {
+        "descripcion": "Portal en la red Tor que publica datos de brechas de seguridad.",
+        "url": "http://incblog6qu4y4mm4zvw5nrmue6qbwtgjsxpw6b7ixzssu36tsajldoad.onion",
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["datos comprometidos"]
     }
 }
