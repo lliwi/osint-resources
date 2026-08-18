@@ -1202,5 +1202,12 @@
         "categoria": "data breaches",
         "input_types": ["n/a"],
         "output_types": ["datos comprometidos"]
+    },
+    "redmorph": {
+        "descripcion": "Portal para el análisi de dominios",
+        "url": "https://redmorph.com/",
+        "categoria": "herramientas",
+        "input_types": ["dominio"],
+        "output_types": ["información seguridad"]
     }
 }
