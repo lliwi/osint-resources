@@ -1230,6 +1230,48 @@
         "categoria": "data breaches",
         "input_types": ["usuario","dominio","teléfono","IP"],
         "output_types": ["filtraciones detectadas","credenciales filtradas"]
+    },
+    "LEAKSFORUMS": {
+        "descripcion": "Repositorio github que publica brechas de seguridad.",
+        "url": "https://github.com/FSECDEV/LEAKSFORUMS",
+        "categoria": "data breaches",
+        "input_types": ["n/a"],
+        "output_types": ["datos comprometidos"]
+    },
+    "deepdarkCTI": {
+        "descripcion": "Repositorio github con recursos de interés varios, brechas de seguridad, cve, actores, motores de busqueda, etc.",
+        "url": "https://github.com/fastfire/deepdarkCTI",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "dark-web-osint-tools": {
+        "descripcion": "Repositorio github con recursos para investigacion de la dark web",
+        "url": "https://github.com/apurvsinghgautam/dark-web-osint-tools",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "D4rk_Intel-OSINT-Investigative-Toolkit": {
+        "descripcion": "Repositorio github con recursos para investigacion OSINT",
+        "url": "https://github.com/techenthusiast167/D4rk_Intel-OSINT-Investigative-Toolkit",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "https://github.com/cugu/awesome-forensics": {
+        "descripcion": "Repositorio github con recursos para investigacion forense",
+        "url": "https://github.com/techenthusiast167/D4rk_Intel-OSINT-Investigative-Toolkit",
+        "categoria": "repositorio",
+        "input_types": ["n/a"],
+        "output_types": ["n/a"]
+    },
+    "zephira": {
+        "descripcion": "Plataforma de datos empresariales globales verificados, enriquecidos con IA para análisis, compliance y toma de decisiones.",
+        "url": "https://zephira.ai/",
+        "categoria": "empresas",
+        "input_types": ["nombre empresa"],
+        "output_types": ["información de la empresa"]
     }
     
 }
