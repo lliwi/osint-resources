@@ -1209,5 +1209,27 @@
         "categoria": "herramientas",
         "input_types": ["dominio"],
         "output_types": ["información seguridad"]
+    },
+    "trafficvision": {
+        "descripcion": "Camaras de tráfico",
+        "url": "https://trafficvision.live/",
+        "categoria": "herramientas",
+        "input_types": ["n/a"],
+        "output_types": ["imagenes de las camaras"]
+    },
+    "International White and Yellow Pages": {
+        "descripcion": "Paginas blancas y amarillas mundiales",
+        "url": "https://www.wayp.com/",
+        "categoria": "teléfonos",
+        "input_types": ["n/a"],
+        "output_types": ["directorios de teléfonos"]
+    },
+    "breach VIP": {
+        "descripcion": "Buscador de credenciales filtradas que muestra las contraseñas parcialmente ofuscadas junto con su hash.",
+        "url": "https://breach.vip/",
+        "categoria": "data breaches",
+        "input_types": ["usuario","dominio","teléfono","IP"],
+        "output_types": ["filtraciones detectadas","credenciales filtradas"]
     }
+    
 }
